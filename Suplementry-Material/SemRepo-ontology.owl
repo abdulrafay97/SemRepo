@@ -1,0 +1,765 @@
+<rdf:RDF
+    xmlns="https://semrepo.org/ontology#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:fabio="http://purl.org/spar/fabio/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xml:base="https://semrepo.org/ontology">
+    
+    <owl:Ontology rdf:about="https://semrepo.org/ontology#">
+        <rdfs:comment xml:lang="en">
+            The SemRepo Ontology, described using W3C RDF Schema and the Web Ontology Language OWL.
+        </rdfs:comment>
+        <rdfs:label xml:lang="en">Linked Papers With Code Ontology</rdfs:label>
+    </owl:Ontology>
+
+<!--
+///////////////////////////////////////////////////////////////////////////////////////
+//
+// Classes
+//
+///////////////////////////////////////////////////////////////////////////////////////
+-->
+
+	<owl:Class rdf:about="https://semrepo.org/class/repository">
+		<rdfs:label xml:lang="en">
+			Repository
+		</rdfs:label>
+		<rdfs:comment xml:lang="en">
+			Represents a storage location for code and data.
+		</rdfs:comment>
+	</owl:Class>
+
+
+	<owl:Class rdf:about="https://semrepo.org/class/person">
+		<rdfs:label xml:lang="en">
+			Person
+		</rdfs:label>
+		<rdfs:comment xml:lang="en">
+			General class representing an individual.
+		</rdfs:comment>
+	</owl:Class>
+
+
+	<owl:Class rdf:about="https://semrepo.org/class/author">
+		<rdfs:label xml:lang="en">
+			Author
+		</rdfs:label>
+		<rdfs:comment xml:lang="en">
+			A subclass of Person representing an author, who created a repository.
+		</rdfs:comment>
+		<rdfs:subClassOf rdf:resource="https://semrepo.org/class/person"/>
+	</owl:Class>
+
+
+	<owl:Class rdf:about="https://semrepo.org/class/stargazer">
+		<rdfs:label xml:lang="en">
+			Stargazer
+		</rdfs:label>
+		<rdfs:comment xml:lang="en">
+			A subclass of Person representing a user who stars repositories.
+		</rdfs:comment>
+		<rdfs:subClassOf rdf:resource="https://semrepo.org/class/person"/>
+	</owl:Class>
+
+
+	<owl:Class rdf:about="https://semrepo.org/class/watcher">
+		<rdfs:label xml:lang="en">
+			Watcher
+		</rdfs:label>
+		<rdfs:comment xml:lang="en">
+			A subclass of Person representing a user who watches repositories.
+		</rdfs:comment>
+		<rdfs:subClassOf rdf:resource="https://semrepo.org/class/person"/>
+	</owl:Class>
+
+
+	<owl:Class rdf:about="https://semrepo.org/class/issueAuthor">
+		<rdfs:label xml:lang="en">
+			Issue Author
+		</rdfs:label>
+		<rdfs:comment xml:lang="en">
+			A subclass of Person representing a user who creates issues in the repository.
+		</rdfs:comment>
+		<rdfs:subClassOf rdf:resource="https://semrepo.org/class/person"/>
+	</owl:Class>
+
+
+	<owl:Class rdf:about="https://semrepo.org/class/contributor">
+		<rdfs:label xml:lang="en">
+			Contributor
+		</rdfs:label>
+		<rdfs:comment xml:lang="en">
+			A subclass of Person representing a user who contributes to repositories.
+		</rdfs:comment>
+		<rdfs:subClassOf rdf:resource="https://semrepo.org/class/person"/>
+	</owl:Class>
+
+
+	<owl:Class rdf:about="https://semrepo.org/class/forker">
+		<rdfs:label xml:lang="en">
+			Forker
+		</rdfs:label>
+		<rdfs:comment xml:lang="en">
+			A subclass of Person representing a user who forks repositories.
+		</rdfs:comment>
+		<rdfs:subClassOf rdf:resource="https://semrepo.org/class/person"/>
+	</owl:Class>
+
+
+	<owl:Class rdf:about="https://semrepo.org/class/forkedRepo">
+		<rdfs:label xml:lang="en">
+			Forked Repository
+		</rdfs:label>
+		<rdfs:comment xml:lang="en">
+			Represents a repository that has been forked.
+		</rdfs:comment>
+	</owl:Class>
+
+
+	<owl:Class rdf:about="https://semrepo.org/class/topic">
+		<rdfs:label xml:lang="en">
+			Repository Topic
+		</rdfs:label>
+		<rdfs:comment xml:lang="en">
+			Represents a topic associated with a repository.
+		</rdfs:comment>
+	</owl:Class>
+
+
+	<owl:Class rdf:about="https://semrepo.org/class/bot">
+		<rdfs:label xml:lang="en">
+			GitHub Bot
+		</rdfs:label>
+		<rdfs:comment xml:lang="en">
+			Represents a bot used on GitHub.
+		</rdfs:comment>
+	</owl:Class>
+
+
+	<owl:Class rdf:about="https://semrepo.org/class/organisation">
+		<rdfs:label xml:lang="en">
+			GitHub organisation
+		</rdfs:label>
+		<rdfs:comment xml:lang="en">
+			Represents an organisation on GitHub.
+		</rdfs:comment>
+	</owl:Class>
+
+
+	<owl:Class rdf:about="https://semrepo.org/class/package">
+		<rdfs:label xml:lang="en">
+			Package utilised in a Code base.
+		</rdfs:label>
+		<rdfs:comment xml:lang="en">
+			Represents a package used within a codebase.
+		</rdfs:comment>
+	</owl:Class>
+
+
+	<owl:Class rdf:about="https://semrepo.org/class/issue">
+		<rdfs:label xml:lang="en">
+			GitHub Repository Issues
+		</rdfs:label>
+		<rdfs:comment xml:lang="en">
+			Represents issues within GitHub repositories.
+		</rdfs:comment>
+	</owl:Class>
+
+
+	<owl:Class rdf:about="https://semrepo.org/class/contributorReference">
+		<rdfs:label xml:lang="en">
+			GitHub Contributor Reference
+		</rdfs:label>
+		<rdfs:comment xml:lang="en">
+			Represents a reference for a contributor.
+		</rdfs:comment>
+	</owl:Class>
+
+
+	<owl:Class rdf:about="https://semrepo.org/class/issueLabelReference">
+		<rdfs:label xml:lang="en">
+			GitHub Issue Label Reference
+		</rdfs:label>
+		<rdfs:comment xml:lang="en">
+			Represents a reference for labels used in GitHub issues.
+		</rdfs:comment>
+	</owl:Class>
+
+
+	<owl:Class rdf:about="https://semrepo.org/class/languageReference">
+		<rdfs:label xml:lang="en">
+			GitHub Repository Language Reference
+		</rdfs:label>
+		<rdfs:comment xml:lang="en">
+			Represents a reference for programming languages in a repository.
+		</rdfs:comment>
+	</owl:Class>
+
+
+	<owl:Class rdf:about="https://linkedpaperswithcode.com/class/repository">
+		<rdfs:label xml:lang="en">
+			Repository in LinkedPapersWithCode
+		</rdfs:label>
+		<rdfs:comment xml:lang="en">
+			Represents a repository within the LinkedPapersWithCode ontology.
+		</rdfs:comment>
+	</owl:Class>
+
+
+	<owl:Class rdf:about="https://semopenalex.org/ontology/Author">
+		<rdfs:label xml:lang="en">
+			Author in SemOpenAlex
+		</rdfs:label>
+		<rdfs:comment xml:lang="en">
+			Represents an author within the SemOpenAlex ontology.
+		</rdfs:comment>
+	</owl:Class>
+
+
+<!--
+///////////////////////////////////////////////////////////////////////////////////////
+//
+// Object Properties
+//
+///////////////////////////////////////////////////////////////////////////////////////
+-->
+
+	<owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/topic">
+		<rdfs:domain rdf:resource="https://semrepo.org/class/repository"/>
+		<rdfs:range rdf:resource="https://semrepo.org/class/topic"/>
+		<rdfs:label xml:lang="en">
+			GitHub Repository Topic
+		</rdfs:label>
+		<rdfs:comment xml:lang="en">
+			Represents a topic associated with a GitHub repository, enabling better categorization and discoverability based on key subjects.
+		</rdfs:comment>
+	</owl:ObjectProperty>
+
+
+	<owl:ObjectProperty rdf:about="https://semrepo.org/property/hasLanguageReference">
+		<rdfs:domain rdf:resource="https://semrepo.org/class/repository"/>
+		<rdfs:range rdf:resource="https://semrepo.org/class/languageReference"/>
+		<rdfs:label xml:lang="en">
+			GitHub Repository's Programming Language Reference Object
+		</rdfs:label>
+		<rdfs:comment xml:lang="en">
+			Links a GitHub repository to its programming languages, providing a reference for tools and analysis that rely on language identification.
+		</rdfs:comment>
+	</owl:ObjectProperty>
+
+
+	<owl:ObjectProperty rdf:about="https://semrepo.org/property/hasPrimaryProgrammingLanguage">
+		<rdfs:domain rdf:resource="https://semrepo.org/class/repository"/>
+		<rdfs:range rdf:resource="https://semrepo.org/class/languageReference"/>
+		<rdfs:label xml:lang="en">
+			GitHub Repository's Main Programming Language Reference Object
+		</rdfs:label>
+		<rdfs:comment xml:lang="en">
+			Defines the primary programming language utilized in a GitHub repository, highlighting its main technology stack.
+		</rdfs:comment>
+	</owl:ObjectProperty>
+
+
+	<owl:ObjectProperty rdf:about="https://semrepo.org/property/hasPersonType">
+		<rdfs:domain rdf:resource="https://semrepo.org/class/person"/>
+		<rdfs:range>
+			<owl:Class>
+				<owl:unionOf rdf:parseType="Collection">
+					<rdf:Class rdf:about="https://semrepo.org/class/stargazer"/>
+					<rdf:Class rdf:about="https://semrepo.org/class/watcher"/>
+					<rdf:Class rdf:about="https://semrepo.org/class/issueAuthor"/>
+					<rdf:Class rdf:about="https://semrepo.org/class/forker"/>
+					<rdf:Class rdf:about="https://semrepo.org/class/author"/>
+					<rdf:Class rdf:about="https://semrepo.org/class/contributor"/>
+				</owl:unionOf>
+			</owl:Class>
+		</rdfs:range>
+		<rdfs:label xml:lang="en">
+			Person's type (e.g, Author, Contributor)
+		</rdfs:label>
+		<rdfs:comment xml:lang="en">
+			Specifies the role of a person within a repository, such as an author, other contributor types, or watchers, facilitating role-based classifications.
+		</rdfs:comment>
+	</owl:ObjectProperty>
+
+
+	<owl:ObjectProperty rdf:about="https://semrepo.org/property/hasContributorReference">
+		<rdfs:domain rdf:resource="https://semrepo.org/class/repository"/>
+		<rdfs:range rdf:resource="https://semrepo.org/class/hasContributorReference"/>
+		<rdfs:label xml:lang="en">
+			Reference object for Contributor
+		</rdfs:label>
+		<rdfs:comment xml:lang="en">
+			Provides a reference for contributors associated with a GitHub repository, allowing for organization of contributor information and statistics.
+		</rdfs:comment>
+	</owl:ObjectProperty>
+
+
+	<owl:ObjectProperty rdf:about="https://semrepo.org/property/hasContributor">
+		<rdfs:domain rdf:resource="https://semrepo.org/class/contributorReference"/>
+		<rdfs:range rdf:resource="https://semrepo.org/class/person"/>
+		<rdfs:label xml:lang="en">
+			has Contributor
+		</rdfs:label>
+		<rdfs:comment xml:lang="en">
+			Indicates a specific contributor linked to a contributor reference object, establishing a connection between contributors and their contributions.
+		</rdfs:comment>
+	</owl:ObjectProperty>
+
+
+	<owl:ObjectProperty rdf:about="https://semrepo.org/property/hasWatcher">
+		<rdfs:domain rdf:resource="https://semrepo.org/class/repository"/>
+		<rdfs:range rdf:resource="https://semrepo.org/class/person"/>
+		<rdfs:label xml:lang="en">
+			has Watcher
+		</rdfs:label>
+		<rdfs:comment xml:lang="en">
+			Connects a GitHub repository with individuals who follow the repository's updates, enabling engagement tracking.
+		</rdfs:comment>
+	</owl:ObjectProperty>
+
+
+	<owl:ObjectProperty rdf:about="https://semrepo.org/property/hasStargazer">
+		<rdfs:domain rdf:resource="https://semrepo.org/class/repository"/>
+		<rdfs:range rdf:resource="https://semrepo.org/class/person"/>
+		<rdfs:label xml:lang="en">
+			has Stargazer
+		</rdfs:label>
+		<rdfs:comment xml:lang="en">
+			Associates a person who has starred the GitHub repository, indicating their support or interest in the project.
+		</rdfs:comment>
+	</owl:ObjectProperty>
+
+
+	<owl:ObjectProperty rdf:about="https://semrepo.org/property/hasIssue">
+		<rdfs:domain rdf:resource="https://semrepo.org/class/repository"/>
+		<rdfs:range rdf:resource="https://semrepo.org/class/issue"/>
+		<rdfs:label xml:lang="en">
+			has Issue
+		</rdfs:label>
+		<rdfs:comment xml:lang="en">
+			Links a GitHub repository to its associated issues, facilitating tracking of bugs, tasks, and feature requests within the repository.
+		</rdfs:comment>
+	</owl:ObjectProperty>
+
+
+	<owl:ObjectProperty rdf:about="https://semrepo.org/property/hasIssueLabelReference">
+		<rdfs:domain rdf:resource="https://semrepo.org/class/issue"/>
+		<rdfs:range rdf:resource="https://semrepo.org/class/hasIssueLabelReference"/>
+		<rdfs:label xml:lang="en">
+			Reference object for Issue Labels
+		</rdfs:label>
+		<rdfs:comment xml:lang="en">
+			Provides a reference for labels associated with issues in a repository, aiding in the categorization and prioritization of issues.
+		</rdfs:comment>
+	</owl:ObjectProperty>
+
+
+	<owl:ObjectProperty rdf:about="https://semrepo.org/property/hasIssueAuthor">
+		<rdfs:domain rdf:resource="https://semrepo.org/class/issue"/>
+		<rdfs:range>
+			<owl:Class>
+				<owl:unionOf rdf:parseType="Collection">
+					<rdf:Class rdf:about="https://semrepo.org/class/bot"/>
+					<rdf:Class rdf:about="https://semrepo.org/class/person"/>
+				</owl:unionOf>
+			</owl:Class>
+		</rdfs:range>
+		<rdfs:label xml:lang="en">
+			has Issue Author
+		</rdfs:label>
+		<rdfs:comment xml:lang="en">
+			Identifies the author of an issue, which may be either a person or a bot, enhancing transparency in issue tracking and attribution.
+		</rdfs:comment>
+	</owl:ObjectProperty>
+
+
+	<owl:ObjectProperty rdf:about="https://semrepo.org/property/hasBotType">
+		<rdfs:domain rdf:resource="https://semrepo.org/class/bot"/>
+		<rdfs:range rdf:resource="https://semrepo.org/class/issueAuthor"/>
+		<rdfs:label xml:lang="en">
+			has Bot Type
+		</rdfs:label>
+		<rdfs:comment xml:lang="en">
+			Defines the type of bot responsible for creating or managing issues, allowing for better identification and classification of automated contributions.
+		</rdfs:comment>
+	</owl:ObjectProperty>
+
+
+	<owl:ObjectProperty rdf:about="https://semrepo.org/property/forkedAs">
+		<rdfs:domain rdf:resource="https://semrepo.org/class/repository"/>
+		<rdfs:range rdf:resource="https://semrepo.org/class/forkedRepo"/>
+		<rdfs:label xml:lang="en">
+			Repository forked as
+		</rdfs:label>
+		<rdfs:comment xml:lang="en">
+			Indicates the name of the repository that was forked from the original, establishing a clear relation between the original and its forked version.
+		</rdfs:comment>
+	</owl:ObjectProperty>
+
+
+	<owl:ObjectProperty rdf:about="https://semrepo.org/property/forkedBy">
+		<rdfs:domain rdf:resource="https://semrepo.org/class/forkedRepo"/>
+		<rdfs:range rdf:resource="https://semrepo.org/class/person"/>
+		<rdfs:label xml:lang="en">
+			Repository forked by
+		</rdfs:label>
+		<rdfs:comment xml:lang="en">
+			Connects a forked repository to the person who created the fork, enabling tracking of contributions and modifications made by different users.
+		</rdfs:comment>
+	</owl:ObjectProperty>
+
+
+	<owl:ObjectProperty rdf:about="https://semrepo.org/property/usedPackage">
+		<rdfs:domain rdf:resource="https://semrepo.org/class/repository"/>
+		<rdfs:range rdf:resource="https://semrepo.org/class/package"/>
+		<rdfs:label xml:lang="en">
+			Utilised package
+		</rdfs:label>
+		<rdfs:comment xml:lang="en">
+			References packages that are utilized within the repository, providing insight into external dependencies necessary for the project's functionality.
+		</rdfs:comment>
+	</owl:ObjectProperty>
+
+
+	<owl:ObjectProperty rdf:about="http://purl.org/dc/terms/creator">
+		<rdfs:domain rdf:resource="https://semrepo.org/class/repository"/>
+		<rdfs:range>
+			<owl:Class>
+				<owl:unionOf rdf:parseType="Collection">
+					<rdf:Class rdf:about="https://semrepo.org/class/organisation"/>
+					<rdf:Class rdf:about="https://semrepo.org/class/person"/>
+				</owl:unionOf>
+			</owl:Class>
+		</rdfs:range>
+		<rdfs:label xml:lang="en">
+			creator of a resource
+		</rdfs:label>
+		<rdfs:comment xml:lang="en">
+			Identifies the individual or organization responsible for creating the repository, useful for attributing ownership or authorship.
+		</rdfs:comment>
+	</owl:ObjectProperty>
+
+
+	<owl:ObjectProperty rdf:about="https://semrepo.org/property/hasLpwcUrl">
+		<rdfs:domain rdf:resource="https://semrepo.org/class/repository"/>
+		<rdfs:range rdf:resource="https://linkedpaperswithcode.com/class/repository"/>
+		<rdfs:label xml:lang="en">
+			has LPWC Repository Url
+		</rdfs:label>
+		<rdfs:comment xml:lang="en">
+			Links to the corresponding entry in the Linked Papers with Code (LPWC) repository, facilitating connections between research papers and their implementation in GitHub repositories.
+		</rdfs:comment>
+	</owl:ObjectProperty>
+
+
+	<owl:ObjectProperty rdf:about="https://semrepo.org/property/hasSoaUrl">
+		<rdfs:domain rdf:resource="https://semrepo.org/class/repository"/>
+		<rdfs:range rdf:resource="https://semopenalex.org/ontology/Author"/>
+		<rdfs:label xml:lang="en">
+			has SOA Author Url
+		</rdfs:label>
+		<rdfs:comment xml:lang="en">
+			Provides a link to the corresponding author profile in the Semantic OpenAlex (SOA) database, enhancing the visibility and attribution of authorship in published works.
+		</rdfs:comment>
+	</owl:ObjectProperty>
+
+<!--
+///////////////////////////////////////////////////////////////////////////////////////
+//
+// Data Properties
+//
+///////////////////////////////////////////////////////////////////////////////////////
+-->
+
+	<owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/title">
+		<rdfs:domain>
+			<owl:Class>
+				<owl:unionOf rdf:parseType="Collection">
+					<rdf:Description rdf:about="https://semrepo.org/class/package"/>
+					<rdf:Description rdf:about="https://semrepo.org/class/issue"/>
+					<rdf:Description rdf:about="https://semrepo.org/class/repository"/>
+				</owl:unionOf>
+			</owl:Class>
+		</rdfs:domain>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:DatatypeProperty>
+
+
+	<owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/created">
+		<rdfs:domain>
+			<owl:Class>
+				<owl:unionOf rdf:parseType="Collection">
+					<rdf:Description rdf:about="https://semrepo.org/class/organisation"/>
+					<rdf:Description rdf:about="https://semrepo.org/class/person"/>
+					<rdf:Description rdf:about="https://semrepo.org/class/forkedRepo"/>
+					<rdf:Description rdf:about="https://semrepo.org/class/issue"/>
+				</owl:unionOf>
+			</owl:Class>
+		</rdfs:domain>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+	</owl:DatatypeProperty>
+
+
+	<owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/abstract">
+		<rdfs:domain rdf:resource="https://semrepo.org/class/repository"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:DatatypeProperty>
+
+
+	<owl:DatatypeProperty rdf:about="http://purl.org/spar/fabio/hasURL">
+		<rdfs:domain>
+			<owl:Class>
+				<owl:unionOf rdf:parseType="Collection">
+					<rdf:Description rdf:about="https://semrepo.org/class/person"/>
+					<rdf:Description rdf:about="https://semrepo.org/class/repository"/>
+					<rdf:Description rdf:about="https://semrepo.org/class/issue"/>
+					<rdf:Description rdf:about="https://semrepo.org/class/forkedRepo"/>
+					<rdf:Description rdf:about="https://semrepo.org/class/organization"/>
+					<rdf:Description rdf:about="https://semrepo.org/class/bot"/>
+					<rdf:Description rdf:about="https://semrepo.org/class/package"/>
+				</owl:unionOf>
+			</owl:Class>
+		</rdfs:domain>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+	</owl:DatatypeProperty>
+
+
+	<owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/accountName">
+		<rdfs:domain>
+			<owl:Class>
+				<owl:unionOf rdf:parseType="Collection">
+					<rdf:Description rdf:about="https://semrepo.org/class/person"/>
+					<rdf:Description rdf:about="https://semrepo.org/class/bot"/>
+					<rdf:Description rdf:about="https://semrepo.org/class/organization"/>
+				</owl:unionOf>
+			</owl:Class>
+		</rdfs:domain>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:DatatypeProperty>
+
+
+	<owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/name">
+		<rdfs:domain>
+			<owl:Class>
+				<owl:unionOf rdf:parseType="Collection">
+					<rdf:Description rdf:about="https://semrepo.org/class/person"/>
+					<rdf:Description rdf:about="https://semrepo.org/class/organization"/>
+				</owl:unionOf>
+			</owl:Class>
+		</rdfs:domain>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:DatatypeProperty>
+
+
+	<owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/description">
+		<rdfs:domain>
+			<owl:Class>
+				<owl:unionOf rdf:parseType="Collection">
+					<rdf:Description rdf:about="https://semrepo.org/class/person"/>
+					<rdf:Description rdf:about="https://semrepo.org/class/organization"/>
+				</owl:unionOf>
+			</owl:Class>
+		</rdfs:domain>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:DatatypeProperty>
+
+
+	<owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/mbox">
+		<rdfs:domain>
+			<owl:Class>
+				<owl:unionOf rdf:parseType="Collection">
+					<rdf:Description rdf:about="https://semrepo.org/class/person"/>
+					<rdf:Description rdf:about="https://semrepo.org/class/organization"/>
+				</owl:unionOf>
+			</owl:Class>
+		</rdfs:domain>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:DatatypeProperty>
+
+
+	<owl:DatatypeProperty rdf:about="http://semrepo.org/property/issueState">
+		<rdfs:domain rdf:resource="http://semrepo.org/class/issue"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+	</owl:DatatypeProperty>
+
+
+	<owl:DatatypeProperty rdf:about="http://semrepo.org/property/hasTotalStargazers">
+		<rdfs:domain>
+			<owl:Class>
+				<owl:unionOf rdf:parseType="Collection">
+					<rdf:Description rdf:about="https://semrepo.org/class/repository"/>
+					<rdf:Description rdf:about="https://semrepo.org/class/forkedRepo"/>
+				</owl:unionOf>
+			</owl:Class>
+		</rdfs:domain>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+	</owl:DatatypeProperty>
+
+
+	<owl:DatatypeProperty rdf:about="http://semrepo.org/property/hasTotalWatchers">
+		<rdfs:domain>
+			<owl:Class>
+				<owl:unionOf rdf:parseType="Collection">
+					<rdf:Description rdf:about="https://semrepo.org/class/repository"/>
+					<rdf:Description rdf:about="https://semrepo.org/class/forkedRepo"/>
+				</owl:unionOf>
+			</owl:Class>
+		</rdfs:domain>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+	</owl:DatatypeProperty>
+
+
+	<owl:DatatypeProperty rdf:about="http://semrepo.org/property/hasTotalContributor">
+		<rdfs:domain rdf:resource="http://semrepo.org/class/repository"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+	</owl:DatatypeProperty>
+
+
+	<owl:DatatypeProperty rdf:about="http://semrepo.org/property/hasCommits">
+		<rdfs:domain rdf:resource="http://semrepo.org/class/contributorReference"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+	</owl:DatatypeProperty>
+
+
+	<owl:DatatypeProperty rdf:about="http://semrepo.org/property/hasTotalForks">
+		<rdfs:domain>
+			<owl:Class>
+				<owl:unionOf rdf:parseType="Collection">
+					<rdf:Description rdf:about="https://semrepo.org/class/repository"/>
+					<rdf:Description rdf:about="https://semrepo.org/class/forkedRepo"/>
+				</owl:unionOf>
+			</owl:Class>
+		</rdfs:domain>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+	</owl:DatatypeProperty>
+
+
+	<owl:DatatypeProperty rdf:about="http://semrepo.org/property/hasTotalIssues">
+		<rdfs:domain rdf:resource="http://semrepo.org/class/repository"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+	</owl:DatatypeProperty>
+
+
+	<owl:DatatypeProperty rdf:about="http://semrepo.org/property/hasTotalOpenIssues">
+		<rdfs:domain>
+			<owl:Class>
+				<owl:unionOf rdf:parseType="Collection">
+					<rdf:Description rdf:about="https://semrepo.org/class/repository"/>
+					<rdf:Description rdf:about="https://semrepo.org/class/forkedRepo"/>
+				</owl:unionOf>
+			</owl:Class>
+		</rdfs:domain>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+	</owl:DatatypeProperty>
+
+
+	<owl:DatatypeProperty rdf:about="http://semrepo.org/property/hasTotalClosedIssues">
+		<rdfs:domain rdf:resource="http://semrepo.org/class/repository"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+	</owl:DatatypeProperty>
+
+
+	<owl:DatatypeProperty rdf:about="http://semrepo.org/property/hasIssueLabelDescription">
+		<rdfs:domain rdf:resource="http://semrepo.org/class/IssueLabelReference"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:DatatypeProperty>
+
+
+	<owl:DatatypeProperty rdf:about="http://semrepo.org/property/hasIssueLabelName">
+		<rdfs:domain rdf:resource="http://semrepo.org/class/IssueLabelReference"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+	</owl:DatatypeProperty>
+
+
+	<owl:DatatypeProperty rdf:about="http://semrepo.org/property/hasLanguageName">
+		<rdfs:domain rdf:resource="http://semrepo.org/class/languageReference"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+	</owl:DatatypeProperty>
+
+
+	<owl:DatatypeProperty rdf:about="http://semrepo.org/property/hasLanguageUsage">
+		<rdfs:domain rdf:resource="http://semrepo.org/class/languageReference"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+	</owl:DatatypeProperty>
+
+
+	<owl:DatatypeProperty rdf:about="http://semrepo.org/property/hasTotalComments">
+		<rdfs:domain rdf:resource="http://semrepo.org/class/issue"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+	</owl:DatatypeProperty>
+
+
+	<owl:DatatypeProperty rdf:about="http://semrepo.org/property/hasReadMeContent">
+		<rdfs:domain rdf:resource="http://semrepo.org/class/repository"/>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:DatatypeProperty>
+
+
+	<owl:DatatypeProperty rdf:about="http://semrepo.org/property/hasTwitterAccount">
+		<rdfs:domain>
+			<owl:Class>
+				<owl:unionOf rdf:parseType="Collection">
+					<rdf:Description rdf:about="https://semrepo.org/class/person"/>
+					<rdf:Description rdf:about="https://semrepo.org/class/organization"/>
+				</owl:unionOf>
+			</owl:Class>
+		</rdfs:domain>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:DatatypeProperty>
+
+
+	<owl:DatatypeProperty rdf:about="http://semrepo.org/property/hasFollowers">
+		<rdfs:domain>
+			<owl:Class>
+				<owl:unionOf rdf:parseType="Collection">
+					<rdf:Description rdf:about="https://semrepo.org/class/person"/>
+					<rdf:Description rdf:about="https://semrepo.org/class/organization"/>
+				</owl:unionOf>
+			</owl:Class>
+		</rdfs:domain>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+	</owl:DatatypeProperty>
+
+
+	<owl:DatatypeProperty rdf:about="http://semrepo.org/property/hasPublicRepos">
+		<rdfs:domain>
+			<owl:Class>
+				<owl:unionOf rdf:parseType="Collection">
+					<rdf:Description rdf:about="https://semrepo.org/class/person"/>
+					<rdf:Description rdf:about="https://semrepo.org/class/organization"/>
+				</owl:unionOf>
+			</owl:Class>
+		</rdfs:domain>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+	</owl:DatatypeProperty>
+
+
+	<owl:DatatypeProperty rdf:about="http://semrepo.org/property/hasLocation">
+		<rdfs:domain>
+			<owl:Class>
+				<owl:unionOf rdf:parseType="Collection">
+					<rdf:Description rdf:about="https://semrepo.org/class/person"/>
+					<rdf:Description rdf:about="https://semrepo.org/class/organization"/>
+				</owl:unionOf>
+			</owl:Class>
+		</rdfs:domain>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	</owl:DatatypeProperty>
+
+
+	<owl:DatatypeProperty rdf:about="http://semrepo.org/property/hasBlog">
+		<rdfs:domain>
+			<owl:Class>
+				<owl:unionOf rdf:parseType="Collection">
+					<rdf:Description rdf:about="https://semrepo.org/class/person"/>
+					<rdf:Description rdf:about="https://semrepo.org/class/organization"/>
+				</owl:unionOf>
+			</owl:Class>
+		</rdfs:domain>
+		<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+	</owl:DatatypeProperty>
+</rdf:RDF>
