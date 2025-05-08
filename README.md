@@ -1,3 +1,3 @@
 # SemRepo
 
-![KG-Schema](images/kg-schema.pdf)
+![KG-Schema](Suplementry-Material/kg-schema.pdf)
