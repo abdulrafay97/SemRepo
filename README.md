@@ -13,4 +13,5 @@ Schema of SemRepo
 
 ## Knowledge Graph Construction 
 
-### 
+### Crawl MetaData
+To Crawl the metadata from the GitHub repositories, we used [python scripts](./Crawling_GitHub_Metadata)
