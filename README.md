@@ -23,6 +23,7 @@ For Extracting the packages being used in the code files, we used the following 
 To construct the knowledge graph of the metadata and linking the knowledge graph with [LPWC](https://linkedpaperswithcode.com) and [SemOpenAlex](https://semopenalex.org/), we employed these [scripts.](./Making_Repo_Metadata_KG)
 
 ### Example SPARQL Queries
+
 Programming Languages Used for each topic
 ```sparql
 SELECT ?topic ?progLang (COUNT(?progLang) AS ?langCount)
@@ -37,3 +38,18 @@ WHERE {
 GROUP BY ?topic ?progLang
 ORDER BY DESC(?langCount)
 LIMIT 100
+```
+
+Top 5 contributors with most commits with SemOpenAlex profile
+```sparql
+SELECT ?contributor ?soa_url (SUM(?no_of_commits) AS ?total_commits)
+WHERE {
+GRAPH <https://semrepo.org> {
+?contRef <https://semrepo.org/property/hasContributor> ?contributor.
+?contRef <https://semrepo.org/property/hasCommits> ?no_of_commits.
+?contributor <https://semrepo.org/property/hasSoaUrl> ?soa_url.
+}
+}
+GROUP BY ?contributor ?soa_url
+ORDER BY DESC(?total_commits)
+LIMIT 5
