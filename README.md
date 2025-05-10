@@ -14,4 +14,4 @@ Schema of SemRepo
 ## Knowledge Graph Construction 
 
 ### Crawl MetaData
-To Crawl the metadata from the GitHub repositories, we used [python scripts](./Crawling_GitHub_Metadata)
+To Crawl the metadata from the GitHub repositories, we used [python scripts](./Crawling_GitHub_Metadata). An overview of the crawled data is available as [JSON](./Suplementry-Material/aashqar_dsclrcn-pytorch_repo.json).
