@@ -21,3 +21,6 @@ For Extracting the packages being used in the code files, we used the following 
 
 ### Constructing the Metadata KG (ie .nt file)
 To construct the knowledge graph of the metadata and linking the knowledge graph with [LPWC](https://linkedpaperswithcode.com) and [SemOpenAlex](https://semopenalex.org/), we employed these [scripts.](./Making_Repo_Metadata_KG)
+
+### Example SPARQL Queries
+<pre> ```sparql SELECT ?topic ?progLang (COUNT(?progLang) AS ?langCount) WHERE { GRAPH <https://semrepo.org> { ?repository <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://semrepo.org/class/repository>. ?repository <http://xmlns.com/foaf/0.1/topic> ?topic. ?repository <https://semrepo.org/property/hasLanguageReference> ?langref. ?langref <https://semrepo.org/property/hasLanguageName> ?progLang. } } GROUP BY ?topic ?progLang ORDER BY DESC(?langCount) LIMIT 100 ``` </pre>
