@@ -23,6 +23,7 @@ For Extracting the packages being used in the code files, we used the following 
 To construct the knowledge graph of the metadata and linking the knowledge graph with [LPWC](https://linkedpaperswithcode.com) and [SemOpenAlex](https://semopenalex.org/), we employed these [scripts.](./Making_Repo_Metadata_KG)
 
 ### Example SPARQL Queries
+Programming Languages Used for each topic
 ```sparql
 SELECT ?topic ?progLang (COUNT(?progLang) AS ?langCount)
 WHERE {
