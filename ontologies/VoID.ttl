@@ -14,7 +14,7 @@
 	void:sparqlEndpoint <https://semrepo.org/sparql>;
 	dcterms:contributor <https://dbpedia.org/page/TU_Dresden> ;
 	dcterms:source <https://github.com/abdulrafay97/SemRepo> ;
-	dcterms:modified "2025-05-13"^^xsd:date ; 
+	dcterms:modified "2025-05-11"^^xsd:date ; 
 	dcterms:publisher :Michael_Faerber ;
 	dcterms:publisher :Abdul_Rafay ;
 	dcterms:publisher :David_Lamprecht ;
