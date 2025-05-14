@@ -6,7 +6,7 @@
 **SemRepo** is available at [https://semrepo.org](https://semrepo.org/)
 
 
-![Knowledge Graph Schema](https://raw.githubusercontent.com/abdulrafay97/SemRepo/main/Suplementry-Material/kg-schema.png)
+![Knowledge Graph Schema](https://raw.githubusercontent.com/abdulrafay97/SemRepo/main/assets/kg-schema.png)
 
 
 Schema of SemRepo
