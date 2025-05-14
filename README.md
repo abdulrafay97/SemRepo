@@ -61,6 +61,7 @@ GROUP BY ?contributor ?soa_url
 ORDER BY DESC(?total_commits)
 LIMIT 5
 ```
+Federated query of SemRepo-LPWC-SemOpenAlex
 
 ```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
