@@ -23,7 +23,7 @@
 	dcterms:subject <http://dbpedia.org/resource/Knowledge_graph> ;  
 	dcterms:subject <http://dbpedia.org/resource/Resource_Description_Framework> ;  
 	void:feature <http://www.w3.org/ns/formats/N-Triples> ;
-	void:triples  81,485,93;
+	void:triples  82,078,636;
 	void:vocabulary <http://xmlns.com/foaf/0.1/> ;
 	void:vocabulary <http://www.w3.org /2001/XMLSchema\#> ;
 	void:vocabulary <http://www.w3.org/1999/02/22-rdf-syntax-ns/#> ;
