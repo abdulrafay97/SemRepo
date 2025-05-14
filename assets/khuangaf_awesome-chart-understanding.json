@@ -1,0 +1,967 @@
+{
+    "url": "https://github.com/khuangaf/awesome-chart-understanding",
+    "repositoryName": "awesome-chart-understanding",
+    "about": "A curated list of recent and past chart understanding work based on our survey paper: From Pixels to Insights: A Survey on Automatic Chart Understanding in the Era of Large Foundation Models.",
+    "topics": [
+        "awesome-list",
+        "large-vision-language-models",
+        "chart-understanding",
+        "chart-question-answering",
+        "chart-captioning",
+        "chart-summarization"
+    ],
+    "languages": {},
+    "author": [
+        {
+            "username": "khuangaf",
+            "user_url": "https://github.com/khuangaf",
+            "name": "Kung-Hsiang Steeve Huang ",
+            "works_at": "Salesforce",
+            "blog": "http://khuangaf.github.io/",
+            "lives_in": "Los Angeles, California",
+            "email": "kh.huang@salesforce.com",
+            "bio": "Research Scientist @ Salesforce Research | Formerly: PhD @ UIUC, PhD Fellow @ Amazon, MSc @ USC, BEng @ HKUST | He/him/his \ud83c\uddf9\ud83c\uddfc ",
+            "twitter_username": "steeve__huang",
+            "user_type": "User",
+            "followers": 581,
+            "created_at": "2015-05-29",
+            "updated_at": "2025-01-17",
+            "public_repos": 62
+        }
+    ],
+    "stars": [
+        {
+            "user_name": "haoyiq114",
+            "user_url": "https://github.com/haoyiq114"
+        },
+        {
+            "user_name": "kenchan0226",
+            "user_url": "https://github.com/kenchan0226"
+        },
+        {
+            "user_name": "khuangaf",
+            "user_url": "https://github.com/khuangaf"
+        },
+        {
+            "user_name": "Ravoxsg",
+            "user_url": "https://github.com/Ravoxsg"
+        },
+        {
+            "user_name": "Hannibal046",
+            "user_url": "https://github.com/Hannibal046"
+        },
+        {
+            "user_name": "zmykevin",
+            "user_url": "https://github.com/zmykevin"
+        },
+        {
+            "user_name": "yogesh-iitj",
+            "user_url": "https://github.com/yogesh-iitj"
+        },
+        {
+            "user_name": "yrf1",
+            "user_url": "https://github.com/yrf1"
+        },
+        {
+            "user_name": "andaldanar",
+            "user_url": "https://github.com/andaldanar"
+        },
+        {
+            "user_name": "Jason8Kang",
+            "user_url": "https://github.com/Jason8Kang"
+        },
+        {
+            "user_name": "kilimchoi",
+            "user_url": "https://github.com/kilimchoi"
+        },
+        {
+            "user_name": "chenxn2020",
+            "user_url": "https://github.com/chenxn2020"
+        },
+        {
+            "user_name": "whitesockcat",
+            "user_url": "https://github.com/whitesockcat"
+        },
+        {
+            "user_name": "bansky-cl",
+            "user_url": "https://github.com/bansky-cl"
+        },
+        {
+            "user_name": "rattandeep1998",
+            "user_url": "https://github.com/rattandeep1998"
+        },
+        {
+            "user_name": "maziyarpanahi",
+            "user_url": "https://github.com/maziyarpanahi"
+        },
+        {
+            "user_name": "chengdujin",
+            "user_url": "https://github.com/chengdujin"
+        },
+        {
+            "user_name": "hertera1",
+            "user_url": "https://github.com/hertera1"
+        },
+        {
+            "user_name": "Stardust-y",
+            "user_url": "https://github.com/Stardust-y"
+        },
+        {
+            "user_name": "rug-lizi",
+            "user_url": "https://github.com/rug-lizi"
+        },
+        {
+            "user_name": "gm-is",
+            "user_url": "https://github.com/gm-is"
+        },
+        {
+            "user_name": "xinyadu",
+            "user_url": "https://github.com/xinyadu"
+        },
+        {
+            "user_name": "pineking",
+            "user_url": "https://github.com/pineking"
+        },
+        {
+            "user_name": "techaddict",
+            "user_url": "https://github.com/techaddict"
+        },
+        {
+            "user_name": "tooxin",
+            "user_url": "https://github.com/tooxin"
+        },
+        {
+            "user_name": "DendiHust",
+            "user_url": "https://github.com/DendiHust"
+        },
+        {
+            "user_name": "dillonhows",
+            "user_url": "https://github.com/dillonhows"
+        },
+        {
+            "user_name": "moured",
+            "user_url": "https://github.com/moured"
+        },
+        {
+            "user_name": "nigelleejyl",
+            "user_url": "https://github.com/nigelleejyl"
+        },
+        {
+            "user_name": "shmilysyq",
+            "user_url": "https://github.com/shmilysyq"
+        },
+        {
+            "user_name": "rtanaka-lab",
+            "user_url": "https://github.com/rtanaka-lab"
+        },
+        {
+            "user_name": "HappyLynn",
+            "user_url": "https://github.com/HappyLynn"
+        },
+        {
+            "user_name": "katieb-alana",
+            "user_url": "https://github.com/katieb-alana"
+        },
+        {
+            "user_name": "katie-b-io",
+            "user_url": "https://github.com/katie-b-io"
+        },
+        {
+            "user_name": "red-fly",
+            "user_url": "https://github.com/red-fly"
+        },
+        {
+            "user_name": "etowahadams",
+            "user_url": "https://github.com/etowahadams"
+        },
+        {
+            "user_name": "jamixlee",
+            "user_url": "https://github.com/jamixlee"
+        },
+        {
+            "user_name": "xylcbd",
+            "user_url": "https://github.com/xylcbd"
+        },
+        {
+            "user_name": "Coobiw",
+            "user_url": "https://github.com/Coobiw"
+        },
+        {
+            "user_name": "rongruosong",
+            "user_url": "https://github.com/rongruosong"
+        },
+        {
+            "user_name": "Aaryaveerkrishna23",
+            "user_url": "https://github.com/Aaryaveerkrishna23"
+        },
+        {
+            "user_name": "zhangry868",
+            "user_url": "https://github.com/zhangry868"
+        },
+        {
+            "user_name": "XuZhengzhuo",
+            "user_url": "https://github.com/XuZhengzhuo"
+        },
+        {
+            "user_name": "WhiteFu",
+            "user_url": "https://github.com/WhiteFu"
+        },
+        {
+            "user_name": "yanqiangmiffy",
+            "user_url": "https://github.com/yanqiangmiffy"
+        },
+        {
+            "user_name": "Diligentfight",
+            "user_url": "https://github.com/Diligentfight"
+        },
+        {
+            "user_name": "Rhythmblue",
+            "user_url": "https://github.com/Rhythmblue"
+        },
+        {
+            "user_name": "CuteMing",
+            "user_url": "https://github.com/CuteMing"
+        },
+        {
+            "user_name": "yangdonghao621",
+            "user_url": "https://github.com/yangdonghao621"
+        },
+        {
+            "user_name": "ssjewcw",
+            "user_url": "https://github.com/ssjewcw"
+        },
+        {
+            "user_name": "world2025",
+            "user_url": "https://github.com/world2025"
+        },
+        {
+            "user_name": "SpursGoZmy",
+            "user_url": "https://github.com/SpursGoZmy"
+        },
+        {
+            "user_name": "MasKong",
+            "user_url": "https://github.com/MasKong"
+        },
+        {
+            "user_name": "skykiseki",
+            "user_url": "https://github.com/skykiseki"
+        },
+        {
+            "user_name": "ligj1706",
+            "user_url": "https://github.com/ligj1706"
+        },
+        {
+            "user_name": "JarvisUSTC",
+            "user_url": "https://github.com/JarvisUSTC"
+        },
+        {
+            "user_name": "Jack-Du123",
+            "user_url": "https://github.com/Jack-Du123"
+        },
+        {
+            "user_name": "rshaojimmy",
+            "user_url": "https://github.com/rshaojimmy"
+        },
+        {
+            "user_name": "ganchun1130",
+            "user_url": "https://github.com/ganchun1130"
+        },
+        {
+            "user_name": "pockees",
+            "user_url": "https://github.com/pockees"
+        },
+        {
+            "user_name": "mckhang",
+            "user_url": "https://github.com/mckhang"
+        },
+        {
+            "user_name": "Zxmw",
+            "user_url": "https://github.com/Zxmw"
+        },
+        {
+            "user_name": "Kerlinn",
+            "user_url": "https://github.com/Kerlinn"
+        },
+        {
+            "user_name": "LuckyyySTA",
+            "user_url": "https://github.com/LuckyyySTA"
+        },
+        {
+            "user_name": "zhaoying9105",
+            "user_url": "https://github.com/zhaoying9105"
+        },
+        {
+            "user_name": "stephenjia",
+            "user_url": "https://github.com/stephenjia"
+        },
+        {
+            "user_name": "Cuiunbo",
+            "user_url": "https://github.com/Cuiunbo"
+        },
+        {
+            "user_name": "ljg9",
+            "user_url": "https://github.com/ljg9"
+        },
+        {
+            "user_name": "feiliya333",
+            "user_url": "https://github.com/feiliya333"
+        },
+        {
+            "user_name": "devanshkhandekar",
+            "user_url": "https://github.com/devanshkhandekar"
+        },
+        {
+            "user_name": "BoweiJia",
+            "user_url": "https://github.com/BoweiJia"
+        },
+        {
+            "user_name": "yanzeyu",
+            "user_url": "https://github.com/yanzeyu"
+        },
+        {
+            "user_name": "dot-birdie",
+            "user_url": "https://github.com/dot-birdie"
+        },
+        {
+            "user_name": "drogozhang",
+            "user_url": "https://github.com/drogozhang"
+        },
+        {
+            "user_name": "Kaka23333",
+            "user_url": "https://github.com/Kaka23333"
+        },
+        {
+            "user_name": "endymecy",
+            "user_url": "https://github.com/endymecy"
+        },
+        {
+            "user_name": "lixumin-zai",
+            "user_url": "https://github.com/lixumin-zai"
+        },
+        {
+            "user_name": "HeegyuKim",
+            "user_url": "https://github.com/HeegyuKim"
+        },
+        {
+            "user_name": "shrey-ya",
+            "user_url": "https://github.com/shrey-ya"
+        },
+        {
+            "user_name": "zhangliang-04",
+            "user_url": "https://github.com/zhangliang-04"
+        },
+        {
+            "user_name": "ResilientSageAI",
+            "user_url": "https://github.com/ResilientSageAI"
+        },
+        {
+            "user_name": "rayqi36",
+            "user_url": "https://github.com/rayqi36"
+        },
+        {
+            "user_name": "VagAnts",
+            "user_url": "https://github.com/VagAnts"
+        },
+        {
+            "user_name": "BartBlaak",
+            "user_url": "https://github.com/BartBlaak"
+        },
+        {
+            "user_name": "graduter",
+            "user_url": "https://github.com/graduter"
+        },
+        {
+            "user_name": "Elin24",
+            "user_url": "https://github.com/Elin24"
+        },
+        {
+            "user_name": "nth2000",
+            "user_url": "https://github.com/nth2000"
+        },
+        {
+            "user_name": "YaoyaoChang",
+            "user_url": "https://github.com/YaoyaoChang"
+        },
+        {
+            "user_name": "lilycyf",
+            "user_url": "https://github.com/lilycyf"
+        },
+        {
+            "user_name": "Tautime",
+            "user_url": "https://github.com/Tautime"
+        },
+        {
+            "user_name": "rreed-pha",
+            "user_url": "https://github.com/rreed-pha"
+        },
+        {
+            "user_name": "HuggingAha",
+            "user_url": "https://github.com/HuggingAha"
+        },
+        {
+            "user_name": "2018JunyoungLim",
+            "user_url": "https://github.com/2018JunyoungLim"
+        },
+        {
+            "user_name": "zengxingchen",
+            "user_url": "https://github.com/zengxingchen"
+        },
+        {
+            "user_name": "esborisova",
+            "user_url": "https://github.com/esborisova"
+        },
+        {
+            "user_name": "dalito",
+            "user_url": "https://github.com/dalito"
+        },
+        {
+            "user_name": "zwcolin",
+            "user_url": "https://github.com/zwcolin"
+        },
+        {
+            "user_name": "EachSheep",
+            "user_url": "https://github.com/EachSheep"
+        },
+        {
+            "user_name": "Tro-fish",
+            "user_url": "https://github.com/Tro-fish"
+        },
+        {
+            "user_name": "wonjoongK",
+            "user_url": "https://github.com/wonjoongK"
+        },
+        {
+            "user_name": "gujiaqivadin",
+            "user_url": "https://github.com/gujiaqivadin"
+        },
+        {
+            "user_name": "zhouhbsea",
+            "user_url": "https://github.com/zhouhbsea"
+        },
+        {
+            "user_name": "SLTK1",
+            "user_url": "https://github.com/SLTK1"
+        },
+        {
+            "user_name": "laaambs",
+            "user_url": "https://github.com/laaambs"
+        },
+        {
+            "user_name": "marchNA",
+            "user_url": "https://github.com/marchNA"
+        },
+        {
+            "user_name": "neil-vqa",
+            "user_url": "https://github.com/neil-vqa"
+        },
+        {
+            "user_name": "haehn",
+            "user_url": "https://github.com/haehn"
+        },
+        {
+            "user_name": "JumpingRain",
+            "user_url": "https://github.com/JumpingRain"
+        },
+        {
+            "user_name": "crown-hg-h",
+            "user_url": "https://github.com/crown-hg-h"
+        },
+        {
+            "user_name": "Word2VecT",
+            "user_url": "https://github.com/Word2VecT"
+        },
+        {
+            "user_name": "VikParuchuri",
+            "user_url": "https://github.com/VikParuchuri"
+        },
+        {
+            "user_name": "jaytxrx",
+            "user_url": "https://github.com/jaytxrx"
+        },
+        {
+            "user_name": "Sandalots",
+            "user_url": "https://github.com/Sandalots"
+        },
+        {
+            "user_name": "invzhi",
+            "user_url": "https://github.com/invzhi"
+        },
+        {
+            "user_name": "HubHop",
+            "user_url": "https://github.com/HubHop"
+        },
+        {
+            "user_name": "cemremengu",
+            "user_url": "https://github.com/cemremengu"
+        },
+        {
+            "user_name": "LaxmanSinghTomar",
+            "user_url": "https://github.com/LaxmanSinghTomar"
+        },
+        {
+            "user_name": "RFKxavieryang",
+            "user_url": "https://github.com/RFKxavieryang"
+        },
+        {
+            "user_name": "Xzk233233",
+            "user_url": "https://github.com/Xzk233233"
+        },
+        {
+            "user_name": "lexingxie",
+            "user_url": "https://github.com/lexingxie"
+        },
+        {
+            "user_name": "mrchengshunlong",
+            "user_url": "https://github.com/mrchengshunlong"
+        },
+        {
+            "user_name": "TheRohitRahul",
+            "user_url": "https://github.com/TheRohitRahul"
+        },
+        {
+            "user_name": "ahane",
+            "user_url": "https://github.com/ahane"
+        },
+        {
+            "user_name": "yangyangyang-tong",
+            "user_url": "https://github.com/yangyangyang-tong"
+        },
+        {
+            "user_name": "stonycat",
+            "user_url": "https://github.com/stonycat"
+        },
+        {
+            "user_name": "pengyu965",
+            "user_url": "https://github.com/pengyu965"
+        },
+        {
+            "user_name": "mxl051654",
+            "user_url": "https://github.com/mxl051654"
+        },
+        {
+            "user_name": "xiaoheilong3112",
+            "user_url": "https://github.com/xiaoheilong3112"
+        },
+        {
+            "user_name": "wizenheimer",
+            "user_url": "https://github.com/wizenheimer"
+        },
+        {
+            "user_name": "allright2024",
+            "user_url": "https://github.com/allright2024"
+        },
+        {
+            "user_name": "entelecheia",
+            "user_url": "https://github.com/entelecheia"
+        },
+        {
+            "user_name": "Minchic",
+            "user_url": "https://github.com/Minchic"
+        },
+        {
+            "user_name": "hiker-lw",
+            "user_url": "https://github.com/hiker-lw"
+        },
+        {
+            "user_name": "caixiaoniweimar",
+            "user_url": "https://github.com/caixiaoniweimar"
+        },
+        {
+            "user_name": "czhhzc",
+            "user_url": "https://github.com/czhhzc"
+        },
+        {
+            "user_name": "CKchaos",
+            "user_url": "https://github.com/CKchaos"
+        },
+        {
+            "user_name": "cxxxxxn",
+            "user_url": "https://github.com/cxxxxxn"
+        },
+        {
+            "user_name": "yumingj",
+            "user_url": "https://github.com/yumingj"
+        },
+        {
+            "user_name": "zwq2018",
+            "user_url": "https://github.com/zwq2018"
+        },
+        {
+            "user_name": "WGowi",
+            "user_url": "https://github.com/WGowi"
+        },
+        {
+            "user_name": "infinitysugam",
+            "user_url": "https://github.com/infinitysugam"
+        },
+        {
+            "user_name": "Heaven-zhw",
+            "user_url": "https://github.com/Heaven-zhw"
+        },
+        {
+            "user_name": "dotsnangles",
+            "user_url": "https://github.com/dotsnangles"
+        },
+        {
+            "user_name": "IanLiYi1996",
+            "user_url": "https://github.com/IanLiYi1996"
+        },
+        {
+            "user_name": "wangdq1989",
+            "user_url": "https://github.com/wangdq1989"
+        },
+        {
+            "user_name": "Natyren",
+            "user_url": "https://github.com/Natyren"
+        },
+        {
+            "user_name": "PuWenyin",
+            "user_url": "https://github.com/PuWenyin"
+        },
+        {
+            "user_name": "bg4xsd",
+            "user_url": "https://github.com/bg4xsd"
+        },
+        {
+            "user_name": "zcccccz",
+            "user_url": "https://github.com/zcccccz"
+        },
+        {
+            "user_name": "Ch4osMy7h",
+            "user_url": "https://github.com/Ch4osMy7h"
+        },
+        {
+            "user_name": "nemonameless",
+            "user_url": "https://github.com/nemonameless"
+        },
+        {
+            "user_name": "m1yaaang",
+            "user_url": "https://github.com/m1yaaang"
+        },
+        {
+            "user_name": "lyuwenyu",
+            "user_url": "https://github.com/lyuwenyu"
+        },
+        {
+            "user_name": "weijieliu-cs",
+            "user_url": "https://github.com/weijieliu-cs"
+        },
+        {
+            "user_name": "xxlllz",
+            "user_url": "https://github.com/xxlllz"
+        },
+        {
+            "user_name": "moemoeapril",
+            "user_url": "https://github.com/moemoeapril"
+        },
+        {
+            "user_name": "JeffCarpenter",
+            "user_url": "https://github.com/JeffCarpenter"
+        },
+        {
+            "user_name": "mx597014232",
+            "user_url": "https://github.com/mx597014232"
+        },
+        {
+            "user_name": "dawn0713",
+            "user_url": "https://github.com/dawn0713"
+        },
+        {
+            "user_name": "duhhhh1",
+            "user_url": "https://github.com/duhhhh1"
+        },
+        {
+            "user_name": "YuzheJiang",
+            "user_url": "https://github.com/YuzheJiang"
+        },
+        {
+            "user_name": "xhyandwyy",
+            "user_url": "https://github.com/xhyandwyy"
+        },
+        {
+            "user_name": "NgDMau",
+            "user_url": "https://github.com/NgDMau"
+        },
+        {
+            "user_name": "williamzhangNU",
+            "user_url": "https://github.com/williamzhangNU"
+        },
+        {
+            "user_name": "diptanu",
+            "user_url": "https://github.com/diptanu"
+        },
+        {
+            "user_name": "nicoataiza",
+            "user_url": "https://github.com/nicoataiza"
+        },
+        {
+            "user_name": "Garry101CN",
+            "user_url": "https://github.com/Garry101CN"
+        },
+        {
+            "user_name": "jgermanob",
+            "user_url": "https://github.com/jgermanob"
+        },
+        {
+            "user_name": "duylebkHCM",
+            "user_url": "https://github.com/duylebkHCM"
+        },
+        {
+            "user_name": "Hydrochore",
+            "user_url": "https://github.com/Hydrochore"
+        },
+        {
+            "user_name": "momo4826",
+            "user_url": "https://github.com/momo4826"
+        },
+        {
+            "user_name": "darvid",
+            "user_url": "https://github.com/darvid"
+        },
+        {
+            "user_name": "redaihanyu",
+            "user_url": "https://github.com/redaihanyu"
+        },
+        {
+            "user_name": "nocturnexxlll",
+            "user_url": "https://github.com/nocturnexxlll"
+        },
+        {
+            "user_name": "tubaboy26",
+            "user_url": "https://github.com/tubaboy26"
+        },
+        {
+            "user_name": "zhaochen0110",
+            "user_url": "https://github.com/zhaochen0110"
+        },
+        {
+            "user_name": "jiarui-liu",
+            "user_url": "https://github.com/jiarui-liu"
+        },
+        {
+            "user_name": "kkkkkathrine",
+            "user_url": "https://github.com/kkkkkathrine"
+        },
+        {
+            "user_name": "data2json",
+            "user_url": "https://github.com/data2json"
+        },
+        {
+            "user_name": "kaurrachneet6",
+            "user_url": "https://github.com/kaurrachneet6"
+        }
+    ],
+    "watchers": [
+        {
+            "user_name": "khuangaf",
+            "user_url": "https://github.com/khuangaf"
+        },
+        {
+            "user_name": "kenchan0226",
+            "user_url": "https://github.com/kenchan0226"
+        },
+        {
+            "user_name": "zmykevin",
+            "user_url": "https://github.com/zmykevin"
+        },
+        {
+            "user_name": "eemailme",
+            "user_url": "https://github.com/eemailme"
+        },
+        {
+            "user_name": "xiapengchng",
+            "user_url": "https://github.com/xiapengchng"
+        },
+        {
+            "user_name": "gujiaqivadin",
+            "user_url": "https://github.com/gujiaqivadin"
+        }
+    ],
+    "forks": [
+        {
+            "user_name": "wonjoong-kim",
+            "user_url": "https://github.com/wonjoong-kim",
+            "repo_forked_as": "wonjoong-kim/Awesome-Chart-Understanding",
+            "forked_repo_url": "https://github.com/wonjoong-kim/Awesome-Chart-Understanding",
+            "created_at": "2025-01-22",
+            "updated_at": "2025-01-22",
+            "stargzers_count": 0,
+            "watchers_count": 0,
+            "forks_count": 0,
+            "open_issues_count": 0
+        },
+        {
+            "user_name": "Coobiw",
+            "user_url": "https://github.com/Coobiw",
+            "repo_forked_as": "Coobiw/Awesome-Chart-Understanding",
+            "forked_repo_url": "https://github.com/Coobiw/Awesome-Chart-Understanding",
+            "created_at": "2024-09-21",
+            "updated_at": "2025-01-25",
+            "stargzers_count": 0,
+            "watchers_count": 0,
+            "forks_count": 0,
+            "open_issues_count": 0
+        },
+        {
+            "user_name": "pengyu965",
+            "user_url": "https://github.com/pengyu965",
+            "repo_forked_as": "pengyu965/Awesome-Chart-Understanding",
+            "forked_repo_url": "https://github.com/pengyu965/Awesome-Chart-Understanding",
+            "created_at": "2024-08-12",
+            "updated_at": "2024-12-08",
+            "stargzers_count": 1,
+            "watchers_count": 1,
+            "forks_count": 0,
+            "open_issues_count": 0
+        },
+        {
+            "user_name": "haehn",
+            "user_url": "https://github.com/haehn",
+            "repo_forked_as": "haehn/Awesome-Chart-Understanding",
+            "forked_repo_url": "https://github.com/haehn/Awesome-Chart-Understanding",
+            "created_at": "2024-07-13",
+            "updated_at": "2024-07-13",
+            "stargzers_count": 0,
+            "watchers_count": 0,
+            "forks_count": 0,
+            "open_issues_count": 0
+        },
+        {
+            "user_name": "wonjoongK",
+            "user_url": "https://github.com/wonjoongK",
+            "repo_forked_as": "wonjoongK/Awesome-Chart-Understanding",
+            "forked_repo_url": "https://github.com/wonjoongK/Awesome-Chart-Understanding",
+            "created_at": "2024-07-01",
+            "updated_at": "2024-07-01",
+            "stargzers_count": 0,
+            "watchers_count": 0,
+            "forks_count": 0,
+            "open_issues_count": 0
+        }
+    ],
+    "contributors": [
+        {
+            "user_name": "khuangaf",
+            "user_url": "https://github.com/khuangaf",
+            "no_of_commits": 41
+        },
+        {
+            "user_name": "haoyiq114",
+            "user_url": "https://github.com/haoyiq114",
+            "no_of_commits": 2
+        },
+        {
+            "user_name": "kenchan0226",
+            "user_url": "https://github.com/kenchan0226",
+            "no_of_commits": 2
+        },
+        {
+            "user_name": "zmykevin",
+            "user_url": "https://github.com/zmykevin",
+            "no_of_commits": 2
+        }
+    ],
+    "issues": [
+        {
+            "issue_id": 6,
+            "issue_title": "ChartAssistant is accepted by ACL2024",
+            "issue_url": "https://github.com/khuangaf/Awesome-Chart-Understanding/issues/6",
+            "issue_state": "open",
+            "issue_labels": [],
+            "issue_author": "FanqingM",
+            "issue_author_type": "User",
+            "issue_author_url": "https://github.com/FanqingM",
+            "issue_assigned_to": [],
+            "issue_created_at": "2024-10-07",
+            "issue_updated_at": "2024-10-07",
+            "issue_comments_count": 0,
+            "reactions": {
+                "total_count": 0,
+                "+1": 0,
+                "-1": 0,
+                "laugh": 0,
+                "hooray": 0,
+                "confused": 0,
+                "heart": 0,
+                "rocket": 0,
+                "eyes": 0
+            }
+        },
+        {
+            "issue_id": 3,
+            "issue_title": "OneChart Accepted",
+            "issue_url": "https://github.com/khuangaf/Awesome-Chart-Understanding/issues/3",
+            "issue_state": "closed",
+            "issue_labels": [],
+            "issue_author": "Word2VecT",
+            "issue_author_type": "User",
+            "issue_author_url": "https://github.com/Word2VecT",
+            "issue_assigned_to": [],
+            "issue_created_at": "2024-08-06",
+            "issue_updated_at": "2024-08-08",
+            "issue_comments_count": 2,
+            "reactions": {
+                "total_count": 0,
+                "+1": 0,
+                "-1": 0,
+                "laugh": 0,
+                "hooray": 0,
+                "confused": 0,
+                "heart": 0,
+                "rocket": 0,
+                "eyes": 0
+            }
+        },
+        {
+            "issue_id": 2,
+            "issue_title": "Hi, I would like to recommend our work OneChart and our benchmark~",
+            "issue_url": "https://github.com/khuangaf/Awesome-Chart-Understanding/issues/2",
+            "issue_state": "closed",
+            "issue_labels": [],
+            "issue_author": "Ucas-HaoranWei",
+            "issue_author_type": "User",
+            "issue_author_url": "https://github.com/Ucas-HaoranWei",
+            "issue_assigned_to": [],
+            "issue_created_at": "2024-05-18",
+            "issue_updated_at": "2024-05-20",
+            "issue_comments_count": 1,
+            "reactions": {
+                "total_count": 0,
+                "+1": 0,
+                "-1": 0,
+                "laugh": 0,
+                "hooray": 0,
+                "confused": 0,
+                "heart": 0,
+                "rocket": 0,
+                "eyes": 0
+            }
+        },
+        {
+            "issue_id": 1,
+            "issue_title": "Chart to table",
+            "issue_url": "https://github.com/khuangaf/Awesome-Chart-Understanding/issues/1",
+            "issue_state": "closed",
+            "issue_labels": [],
+            "issue_author": "Aaryaveerkrishna23",
+            "issue_author_type": "User",
+            "issue_author_url": "https://github.com/Aaryaveerkrishna23",
+            "issue_assigned_to": [],
+            "issue_created_at": "2024-04-07",
+            "issue_updated_at": "2024-04-14",
+            "issue_comments_count": 1,
+            "reactions": {
+                "total_count": 0,
+                "+1": 0,
+                "-1": 0,
+                "laugh": 0,
+                "hooray": 0,
+                "confused": 0,
+                "heart": 0,
+                "rocket": 0,
+                "eyes": 0
+            }
+        }
+    ],
+    "ReadMe": "# Awesome Chart Understanding\n\n[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)\n[![PRWelcome](https://img.shields.io/badge/PRs-Welcome-red)](https://img.shields.io/badge/PRs-Welcome-red)\n[![arXiv](https://img.shields.io/badge/arXiv-2403.12027-b31b1b.svg?style=flat)](https://arxiv.org/abs/2403.12027)\n\nA curated list of recent and past chart understanding work based on our survey paper: [From Pixels to Insights: A Survey on Automatic Chart Understanding in the Era of Large Foundation Models](https://arxiv.org/abs/2403.12027).\n\n**The repository will be continuously updated \ud83d\udcdd. Don't forget to hit the \u2b50\ufe0f and stay tuned!**\n\n**If you find this resource beneficial for your research, please do not hesitate to cite the paper referenced in the [Citation](#citation) section. Thank you!**\n\n\n## Table of Contents\n*  [Tasks and Datasets](#tasks-and-datasets)\n\t*  [Chart Question Answering](#chart-question-answering)\n\t*  [Chart Captioning (Summarization)](#chart-captioning-summarization)\n\t*  [Factual Inconsistency Detection for Chart Captioning](#factual-inconsistency-detection-for-chart-captioning)\n\t*  [Chart Fact-checking](#chart-fact-checking)\n\t*  [Chart Caption Factual Error Correction](#chart-caption-factual-error-correction)\n \t*  [Chart to Code](#chart-to-code)\n*  [Methods](#methods)\n\t*  [Classification-based Methods](#classification-based-methods)\n\t*  [Generation-based Methods](#generation-based-methods)\n \t*  [Tool Augmentation](#tool-augmentation)\n*  [Evaluation](#evaluation)\n*  [Analysis](#analysis)\n*  [Citation](#citation)\n\n## Tasks and Datasets\n\n### Chart Question Answering\n\n**Factoid Questions**\n\n- __DVQA: Understanding Data Visualizations via Question Answering.__ \n\n  _Kushal Kafle, Brian Price, Scott Cohen, Christopher Kanan._ <img src='https://img.shields.io/badge/CVPR-2018-yellow'> <a href='https://openaccess.thecvf.com/content_cvpr_2018/papers/Kafle_DVQA_Understanding_Data_CVPR_2018_paper.pdf'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://github.com/kushalkafle/DVQA_dataset'><img src='https://img.shields.io/badge/Dataset-red'></a>\n\n- __FigureQA: An Annotated Figure Dataset for Visual Reasoning.__ \n\n  _Samira Ebrahimi Kahou, Vincent Michalski, Adam Atkinson, Akos Kadar, Adam Trischler, Yoshua Bengio._ <img src='https://img.shields.io/badge/ICLR_Workshop-2018-yellow'> <a href='https://arxiv.org/abs/1710.07300'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://www.microsoft.com/en-us/research/project/figureqa-dataset/'><img src='https://img.shields.io/badge/Dataset-red'></a>\n\n- __LEAF-QA: Locate, Encode & Attend for Figure Question Answering.__ \n\n  _Ritwick Chaudhry, Sumit Shekhar, Utkarsh Gupta, Pranav Maneriker, Prann Bansal, Ajay Joshi._ <img src='https://img.shields.io/badge/WACV-2020-yellow'> <a href='https://openaccess.thecvf.com/content_WACV_2020/papers/Chaudhry_LEAF-QA_Locate_Encode__Attend_for_Figure_Question_Answering_WACV_2020_paper.pdf'><img src='https://img.shields.io/badge/PDF-blue'></a>\n\n- __STL-CQA: Structure-based Transformers with Localization and Encoding for Chart Question Answering.__ \n\n  _Hrituraj Singh, Sumit Shekhar._ <img src='https://img.shields.io/badge/EMNLP-2020-yellow'> <a href='https://aclanthology.org/2020.emnlp-main.264/'><img src='https://img.shields.io/badge/PDF-blue'></a>\n\n- __PlotQA: Reasoning over Scientific Plots.__ \n\n  _Nitesh Methani, Pritha Ganguly, Mitesh M. Khapra, Pratyush Kumar._ <img src='https://img.shields.io/badge/WACV-2020-yellow'> <a href='https://arxiv.org/abs/1909.00997'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://github.com/NiteshMethani/PlotQA'><img src='https://img.shields.io/badge/Dataset-red'></a>\n\n- __MapQA: A Dataset for Question Answering on Choropleth Maps.__ \n\n  _Shuaichen Chang, David Palzer, Jialin Li, Eric Fosler-Lussier, Ningchuan Xiao._ <img src='https://img.shields.io/badge/Arxiv-2022-yellow'> <a href='https://arxiv.org/abs/2211.08545'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://github.com/OSU-slatelab/MapQA'><img src='https://img.shields.io/badge/Dataset-red'></a>\n  \n\n- __ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical Reasoning.__ \n\n  _Ahmed Masry, Xuan Long Do, Jia Qing Tan, Shafiq Joty, Enamul Hoque._ <img src='https://img.shields.io/badge/ACL_Findings-2022-yellow'> <a href='https://aclanthology.org/2022.findings-acl.177/'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://github.com/vis-nlp/ChartQA'><img src='https://img.shields.io/badge/Dataset-red'></a>\n  \n\n- __SciGraphQA: A Large-Scale Synthetic Multi-Turn Question-Answering Dataset for Scientific Graphs.__\n\n  _Shengzhi Li, Nima Tajbakhsh._ <img src='https://img.shields.io/badge/Arxiv-2023-yellow'> <a href='https://arxiv.org/abs/2308.03349'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://github.com/findalexli/SciGraphQA'><img src='https://img.shields.io/badge/Dataset-red'></a>\n  \n\n\n- __MMC: Advancing Multimodal Chart Understanding with Large-scale Instruction Tuning.__ \n\n  _Fuxiao Liu, Xiaoyang Wang, Wenlin Yao, Jianshu Chen, Kaiqiang Song, Sangwoo Cho, Yaser Yacoob, Dong Yu._ <img src='https://img.shields.io/badge/NAACL-2024-yellow'> <a href='https://arxiv.org/abs/2311.10774'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://github.com/FuxiaoLiu/MMC'><img src='https://img.shields.io/badge/Dataset-red'></a>\n  \n\n- __MathVista: Evaluating Math Reasoning in Visual Contexts with GPT-4V, Bard, and Other Large Multimodal Models.__ \n\n  _Pan Lu, Hritik Bansal, Tony Xia, Jiacheng Liu, Chunyuan Li, Hannaneh Hajishirzi, Hao Cheng, Kai-Wei Chang, Michel Galley, Jianfeng Gao._ <img src='https://img.shields.io/badge/ICLR-2024-yellow'> <a href='https://arxiv.org/abs/2310.02255'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://huggingface.co/datasets/AI4Math/MathVista'><img src='https://img.shields.io/badge/Dataset-red'></a>\n\n\n- __ChartBench: A Benchmark for Complex Visual Reasoning in Charts.__ \n\n  _Zhengzhuo Xu, Sinan Du, Yiyan Qi, Chengjin Xu, Chun Yuan, Jian Guo._ <img src='https://img.shields.io/badge/Arxiv-2023-yellow'> <a href='https://arxiv.org/abs/2312.15915'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://huggingface.co/datasets/AI4Math/MathVista'><img src='https://img.shields.io/badge/Dataset-red'></a>\n\n- __Multimodal ArXiv: A Dataset for Improving Scientific Comprehension of Large Vision-Language Models.__\n\n  _Lei Li, Yuqi Wang, Runxin Xu, Peiyi Wang, Xiachong Feng, Lingpeng Kong, Qi Liu._ <img src='https://img.shields.io/badge/Arxiv-2024-yellow'> <a href='https://arxiv.org/abs/2403.00231'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://huggingface.co/datasets/MMInstruction/ArxivQA'><img src='https://img.shields.io/badge/Dataset-red'></a>\n  \n- __Evaluating Task-based Effectiveness of MLLMs on Charts.__\n\n  _Yifan Wu, Lutao Yan, Yuyu Luo, Yunhai Wang, Nan Tang._ <img src='https://img.shields.io/badge/Arxiv-2024-yellow'> <a href='https://arxiv.org/abs/2405.07001'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://anonymous.4open.science/r/ChartInsights-D43E'><img src='https://img.shields.io/badge/Dataset-red'></a>\n\n- __CharXiv: Charting Gaps in Realistic Chart Understanding in Multimodal LLMs.__\n\n  _Zirui Wang, Mengzhou Xia, Luxi He, Howard Chen, Yitao Liu, Richard Zhu, Kaiqu Liang, Xindi Wu, Haotian Liu, Sadhika Malladi, Alexis Chevalier, Sanjeev Arora, Danqi Chen._ <img src='https://img.shields.io/badge/Arxiv-2024-yellow'> <a href='https://arxiv.org/pdf/2406.18521'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://huggingface.co/datasets/princeton-nlp/CharXiv'><img src='https://img.shields.io/badge/Dataset-red'></a>\n  \n\n**Long-form Questions**  \n\n- __OpenCQA: Open-ended Question Answering with Charts.__ \n\n  _Shankar Kantharaj, Xuan Long Do, Rixie Tiffany Leong, Jia Qing Tan, Enamul Hoque, Shafiq Joty._ <img src='https://img.shields.io/badge/EMNLP-2022-yellow'> <a href='https://aclanthology.org/2022.emnlp-main.811/'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://github.com/vis-nlp/OpenCQA'><img src='https://img.shields.io/badge/Dataset-red'></a>\n\n\n### Chart Captioning (Summarization)\n\n- __Neural Data-Driven Captioning of Time-Series Line Charts.__ \n\n  _Andrea Spreafico, Giuseppe Carenini._ <img src='https://img.shields.io/badge/AVI-2020-yellow'> <a href='https://dl.acm.org/doi/abs/10.1145/3399715.3399829'><img src='https://img.shields.io/badge/PDF-blue'></a> \n\n- __Figure Captioning with Relation Maps for Reasoning.__ \n\n  _Charles Chen, Ruiyi Zhang, Eunyee Koh, Sungchul Kim, Scott Cohen, Ryan Rossi._ <img src='https://img.shields.io/badge/WACV-2020-yellow'> <a href='https://openaccess.thecvf.com/content_WACV_2020/papers/Chen_Figure_Captioning_with_Relation_Maps_for_Reasoning_WACV_2020_paper.pdf'><img src='https://img.shields.io/badge/PDF-blue'></a>\n\n\n- __Chart-to-Text: Generating Natural Language Descriptions for Charts by Adapting the Transformer Model.__ \n\n  _Jason Obeid, Enamul Hoque._ <img src='https://img.shields.io/badge/INLG-2020-yellow'> <a href='https://aclanthology.org/2020.inlg-1.20/'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://github.com/JasonObeid/Chart2Text'><img src='https://img.shields.io/badge/Dataset-red'></a>\n\n- __What Will You Tell Me About the Chart? \u2013 Automated Description of Charts.__\n\n  _Karolina Seweryn, Katarzyna Lorenc, Anna Wr\u00f3blewska, Sylwia Sysko-Roma\u0144czuk._ <img src='https://img.shields.io/badge/ICONIP-2021-yellow'> <a href='https://link.springer.com/chapter/10.1007/978-3-030-92307-5_2'><img src='https://img.shields.io/badge/PDF-blue'></a>\n\n- __SciCap: Generating Captions for Scientific Figures.__ \n\n  _Ting-Yao Hsu, C Lee Giles, Ting-Hao Huang._ <img src='https://img.shields.io/badge/EMNLP-2021-yellow'> <a href='https://aclanthology.org/2021.findings-emnlp.277/'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://github.com/tingyaohsu/SciCap'><img src='https://img.shields.io/badge/Dataset-red'></a>\n\n- __Chart-to-Text: A Large-Scale Benchmark for Chart Summarization.__ \n\n  _Shankar Kantharaj, Rixie Tiffany Leong, Xiang Lin, Ahmed Masry, Megh Thakkar, Enamul Hoque, Shafiq Joty._ <img src='https://img.shields.io/badge/ACL-2022-yellow'> <a href='https://aclanthology.org/2022.acl-long.277/'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://github.com/vis-nlp/Chart-to-text'><img src='https://img.shields.io/badge/Dataset-red'></a>\n  \n\n- __LineCap: Line Charts for Data Visualization Captioning Models.__ \n\n  _Anita Mahinpei, Zona Kostic, Chris Tanner._ <img src='https://img.shields.io/badge/IEEE_VIS-2022-yellow'> <a href='https://ieeexplore.ieee.org/abstract/document/9973197'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://github.com/anita76/LineCapDataset'><img src='https://img.shields.io/badge/Dataset-red'></a>\n  \n- __ChartSumm: A Comprehensive Benchmark for Automatic Chart Summarization of Long and Short Summaries.__\n\n  _Raian Rahman, Rizvi Hasan, Abdullah Al Farhad, Md Tahmid Rahman Laskar, Md. Hamjajul Ashmafee, Abu Raihan Mostofa Kamal._ <img src='https://img.shields.io/badge/Canadian_AI-2023-yellow'> <a href='https://arxiv.org/abs/2304.13620'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://github.com/pranonrahman/ChartSumm'><img src='https://img.shields.io/badge/Dataset-red'></a>\n\n- __VisText: A Benchmark for Semantically Rich Chart Captioning.__ \n\n  _Benny Tang, Angie Boggust, Arvind Satyanarayan._ <img src='https://img.shields.io/badge/ACL-2023-yellow'> <a href='https://aclanthology.org/2023.acl-long.401/'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://github.com/mitvis/vistext'><img src='https://img.shields.io/badge/Dataset-red'></a>\n\n- __FigCaps-HF: A Figure-to-Caption Generative Framework and Benchmark with Human Feedback.__\n\n  _Ashish Singh, Prateek Agarwal, Zixuan Huang, Arpita Singh, Tong Yu, Sungchul Kim, Victor Bursztyn, Nikos Vlassis, Ryan A. Rossi._ <img src='https://img.shields.io/badge/Arxiv-2023-yellow'> <a href='https://arxiv.org/abs/2307.10867'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://figcapshf.github.io/'><img src='https://img.shields.io/badge/Dataset-red'></a>\n  \n\n- __Multimodal ArXiv: A Dataset for Improving Scientific Comprehension of Large Vision-Language Models.__\n\n  _Lei Li, Yuqi Wang, Runxin Xu, Peiyi Wang, Xiachong Feng, Lingpeng Kong, Qi Liu._ <img src='https://img.shields.io/badge/Arxiv-2024-yellow'> <a href='https://arxiv.org/abs/2403.00231'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://huggingface.co/datasets/MMInstruction/ArxivCap'><img src='https://img.shields.io/badge/Dataset-red'></a>\n  \n\n### Factual Inconsistency Detection for Chart Captioning\n\n- __Do LVLMs Understand Charts? Analyzing and Correcting Factual Errors in Chart Captioning.__ \n\n  _Kung-Hsiang Huang, Mingyang Zhou, Hou Pong Chan, Yi R. Fung, Zhenhailong Wang, Lingyu Zhang, Shih-Fu Chang, Heng Ji._ <img src='https://img.shields.io/badge/ACL_Findings-2024-yellow'> <a href='https://arxiv.org/abs/2312.10160'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://huggingface.co/datasets/khhuang/CHOCOLATE'><img src='https://img.shields.io/badge/Dataset-red'></a>\n\n\n### Chart Fact-checking\n\n- __Reading and Reasoning over Chart Images for Evidence-based Automated Fact-Checking.__ \n\n  _Mubasharar Akhtar, Oana Cocarascu, Elena Simperl._ <img src='https://img.shields.io/badge/EACL_Findings-2023-yellow'> <a href='https://aclanthology.org/2023.findings-eacl.30/'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://github.com/mubasharaak/ChartFC_chartBERT'><img src='https://img.shields.io/badge/Dataset-red'></a>\n\n- __ChartCheck: An Evidence-Based Fact-Checking Dataset over Real-World Chart Images.__ \n\n  _Mubashara Akhtar, Nikesh Subedi, Vivek Gupta, Sahar Tahmasebi, Oana Cocarascu, Elena Simperl._ <img src='https://img.shields.io/badge/Arxiv-2023-yellow'> <a href='https://arxiv.org/abs/2311.07453'><img src='https://img.shields.io/badge/PDF-blue'></a>\n\n\n### Chart Caption Factual Error Correction\n\n- __Do LVLMs Understand Charts? Analyzing and Correcting Factual Errors in Chart Captioning.__ \n\n  _Kung-Hsiang Huang, Mingyang Zhou, Hou Pong Chan, Yi R. Fung, Zhenhailong Wang, Lingyu Zhang, Shih-Fu Chang, Heng Ji._ <img src='https://img.shields.io/badge/ACL_Findings-2024-yellow'> <a href='https://arxiv.org/abs/2312.10160'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://huggingface.co/datasets/khhuang/CHOCOLATE'><img src='https://img.shields.io/badge/Dataset-red'></a>\n\n### Chart to Code\n\n- __ChartMimic: Evaluating LMM's Cross-Modal Reasoning Capability via Chart-to-Code Generation.__\n\n  _Chufan Shi, Cheng Yang, Yaxin Liu, Bo Shui, Junjie Wang, Mohan Jing, Linran Xu, Xinyu Zhu, Siheng Li, Yuxiang Zhang, Gongye Liu, Xiaomei Nie, Deng Cai, Yujiu Yang_\n  <img src='https://img.shields.io/badge/Arxiv-2024-yellow'> <a href='https://arxiv.org/abs/2406.09961'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://github.com/ChartMimic/ChartMimic'><img src='https://img.shields.io/badge/Dataset-red'></a>\n\n## Methods\n\n### Classification-based Methods\n\n\n#### Fixed Output Vocab\n\n\n\n- __A Simple Neural Network Module for Relational Reasoning.__ \n\n  _Adam Santoro, David Raposo, David G.T. Barrett, Mateusz Malinowski, Razvan Pascanu, Peter Battaglia, Timothy Lillicrap._ <img src='https://img.shields.io/badge/NeurIPS-2017-yellow'> <a href='https://papers.nips.cc/paper_files/paper/2017/hash/e6acf4b0f69f6f6e60e9a815938aa1ff-Abstract.html'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://github.com/kimhc6028/relational-networks'><img src='https://img.shields.io/badge/Model-green'></a>\n  \n\n- __DVQA: Understanding Data Visualizations via Question Answering.__ \n\n  _Kushal Kafle, Brian Price, Scott Cohen, Christopher Kanan._ <img src='https://img.shields.io/badge/CVPR-2018-yellow'> <a href='https://openaccess.thecvf.com/content_cvpr_2018/papers/Kafle_DVQA_Understanding_Data_CVPR_2018_paper.pdf'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://github.com/kushalkafle/DVQA_dataset'><img src='https://img.shields.io/badge/Model-green'></a>\n\n- __MapQA: A Dataset for Question Answering on Choropleth Maps.__ \n\n  _Shuaichen Chang, David Palzer, Jialin Li, Eric Fosler-Lussier, Ningchuan Xiao._ <img src='https://img.shields.io/badge/Arxiv-2022-yellow'> <a href='https://arxiv.org/abs/2211.08545'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://github.com/OSU-slatelab/MapQA'><img src='https://img.shields.io/badge/Model-green'></a>\n\n#### Dynamic Encoding\n\n- __DVQA: Understanding Data Visualizations via Question Answering.__ \n\n  _Kushal Kafle, Brian Price, Scott Cohen, Christopher Kanan._ <img src='https://img.shields.io/badge/CVPR-2018-yellow'> <a href='https://openaccess.thecvf.com/content_cvpr_2018/papers/Kafle_DVQA_Understanding_Data_CVPR_2018_paper.pdf'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://github.com/kushalkafle/DVQA_dataset'><img src='https://img.shields.io/badge/Model-green'></a>\n\n- __Answering Questions about Data Visualizations using Efficient Bimodal Fusion.__ \n\n  _Kushal Kafle, Robik Shrestha, Brian Price, Scott Cohen, Christopher Kanan._ <img src='https://img.shields.io/badge/WACV-2020-yellow'> <a href='https://openaccess.thecvf.com/content_WACV_2020/papers/Kafle_Answering_Questions_about_Data_Visualizations_using_Efficient_Bimodal_Fusion_WACV_2020_paper.pdf'><img src='https://img.shields.io/badge/PDF-blue'></a>  \n  <a href='https://github.com/kushalkafle/PReFIL'><img src='https://img.shields.io/badge/Model-green'></a>\n\n- __LEAF-QA: Locate, Encode & Attend for Figure Question Answering.__ \n\n  _Ritwick Chaudhry, Sumit Shekhar, Utkarsh Gupta, Pranav Maneriker, Prann Bansal, Ajay Joshi._ <img src='https://img.shields.io/badge/WACV-2020-yellow'> <a href='https://openaccess.thecvf.com/content_WACV_2020/papers/Chaudhry_LEAF-QA_Locate_Encode__Attend_for_Figure_Question_Answering_WACV_2020_paper.pdf'><img src='https://img.shields.io/badge/PDF-blue'></a>\n\n\n- __PlotQA: Reasoning over Scientific Plots.__ \n\n  _Nitesh Methani, Pritha Ganguly, Mitesh M. Khapra, Pratyush Kumar._ <img src='https://img.shields.io/badge/WACV-2020-yellow'> <a href='https://arxiv.org/abs/1909.00997'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://github.com/NiteshMethani/PlotQA'><img src='https://img.shields.io/badge/Model-green'></a>\n\n#### Pre-trained\n\n- __TaPas: Weakly Supervised Table Parsing via Pre-training.__ \n\n  _Jonathan Herzig, Pawel Krzysztof Nowak, Thomas M\u00fcller, Francesco Piccinno, Julian Eisenschlos._ <img src='https://img.shields.io/badge/ACL-2020-yellow'> <a href='https://aclanthology.org/2020.acl-main.398/'><img src='https://img.shields.io/badge/PDF-blue'></a>  \n  <a href='https://github.com/google-research/tapas'><img src='https://img.shields.io/badge/Model-green'></a>\n\n- __STL-CQA: Structure-based Transformers with Localization and Encoding for Chart Question Answering.__ \n\n  _Hrituraj Singh, Sumit Shekhar._ <img src='https://img.shields.io/badge/EMNLP-2020-yellow'> <a href='https://aclanthology.org/2020.emnlp-main.264/'><img src='https://img.shields.io/badge/PDF-blue'></a>\n\n- __ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical Reasoning.__ \n\n  _Ahmed Masry, Xuan Long Do, Jia Qing Tan, Shafiq Joty, Enamul Hoque._ <img src='https://img.shields.io/badge/ACL_Findings-2022-yellow'> <a href='https://aclanthology.org/2022.findings-acl.177/'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://github.com/vis-nlp/ChartQA'><img src='https://img.shields.io/badge/Model-green'></a>\n\n### Generation-based Methods\n\n#### Without Pre-training\n\n- __SciCap: Generating Captions for Scientific Figures.__ \n\n  _Ting-Yao Hsu, C Lee Giles, Ting-Hao Huang._ <img src='https://img.shields.io/badge/EMNLP-2021-yellow'> <a href='https://aclanthology.org/2021.findings-emnlp.277/'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://github.com/tingyaohsu/SciCap'><img src='https://img.shields.io/badge/Model-green'></a>\n\n- __Figure Captioning with Relation Maps for Reasoning.__ \n\n  _Charles Chen, Ruiyi Zhang, Eunyee Koh, Sungchul Kim, Scott Cohen, Ryan Rossi._ <img src='https://img.shields.io/badge/WACV-2020-yellow'> <a href='https://openaccess.thecvf.com/content_WACV_2020/papers/Chen_Figure_Captioning_with_Relation_Maps_for_Reasoning_WACV_2020_paper.pdf'><img src='https://img.shields.io/badge/PDF-blue'></a>\n\n- __Chart-to-Text: Generating Natural Language Descriptions for Charts by Adapting the Transformer Model.__ \n\n  _Jason Obeid, Enamul Hoque._ <img src='https://img.shields.io/badge/INLG-2020-yellow'> <a href='https://aclanthology.org/2020.inlg-1.20/'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://github.com/JasonObeid/Chart2Text'><img src='https://img.shields.io/badge/Model-green'></a>\n\n- __Tackling Hallucinations in Neural Chart Summarization.__ \n\n _Saad Obaid ul Islam, Iza \u0160krjanec, Ond\u0159ej Du\u0161ek, Vera Demberg_ <img src='https://img.shields.io/badge/INLG-2023-yellow'> <a href='https://aclanthology.org/2023.inlg-main.30/'><img src='https://img.shields.io/badge/PDF-blue'></a> <a href='[https://github.com/JasonObeid/Chart2Text](https://github.com/WorldHellow/Hallucinations-C2T)'><img src='https://img.shields.io/badge/Model-green'></a>\n \n#### Pre-trained\n\n\n- __Enhanced Chart Understanding via Visual Language Pre-training on Plot Table Pairs.__ \n\n  _Mingyang Zhou, Yi Fung, Long Chen, Christopher Thomas, Heng Ji, Shih-Fu Chang._ <img src='https://img.shields.io/badge/ACL_Findings-2023-yellow'> <a href='https://aclanthology.org/2023.findings-acl.85/'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://github.com/zmykevin/ACL2023_ChartT5'><img src='https://img.shields.io/badge/Model-green'></a>\n\n- __MatCha: Enhancing Visual Language Pretraining with Math Reasoning and Chart Derendering.__\n\n  _Fangyu Liu, Francesco Piccinno, Syrine Krichene, Chenxi Pang, Kenton Lee, Mandar Joshi, Yasemin Altun, Nigel Collier, Julian Eisenschlos._ <img src='https://img.shields.io/badge/ACL-2023-yellow'> <a href='https://aclanthology.org/2023.acl-long.714/'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='google/matcha-base'><img src='https://img.shields.io/badge/Model-green'></a>\n  \n- __UniChart: A Universal Vision-language Pretrained Model for Chart Comprehension and Reasoning.__\n\n  _Ahmed Masry, Parsa Kavehzadeh, Xuan Long Do, Enamul Hoque, Shafiq Joty._ <img src='https://img.shields.io/badge/EMNLP-2023-yellow'> <a href='https://aclanthology.org/2023.emnlp-main.906/'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://github.com/vis-nlp/UniChart'><img src='https://img.shields.io/badge/Model-green'></a>\n\n- __Pix2Struct: Screenshot Parsing as Pretraining for Visual Language Understanding.__\n\n  _Kenton Lee, Mandar Joshi, Iulia Raluca Turc, Hexiang Hu, Fangyu Liu, Julian Martin Eisenschlos, Urvashi Khandelwal, Peter Shaw, Ming-Wei Chang, Kristina Toutanova._ <img src='https://img.shields.io/badge/ICML-2023-yellow'> <a href='https://proceedings.mlr.press/v202/lee23g/lee23g.pdf'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://huggingface.co/google/pix2struct-base'><img src='https://img.shields.io/badge/Model-green'></a>\n\n- __Synthesize Step-by-Step: Tools, Templates and LLMs as Data Generators for Reasoning-Based Chart VQA.__\n\n  _Zhuowan Li, Bhavan Jasani, Peng Tang, Shabnam Ghadar._ <img src='https://img.shields.io/badge/CVPR-2024-yellow'> <a href='https://arxiv.org/abs/2403.16385'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  \n\n\n  \n  \n### Tool Augmentation\n- __DePlot: One-shot visual language reasoning by plot-to-table translation.__\n\n  _Fangyu Liu, Julian Eisenschlos, Francesco Piccinno, Syrine Krichene, Chenxi Pang, Kenton Lee, Mandar Joshi, Wenhu Chen, Nigel Collier, Yasemin Altun._ <img src='https://img.shields.io/badge/ACL_Findings-2023-yellow'> <a href='https://aclanthology.org/2023.findings-acl.660/'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://huggingface.co/google/deplot'><img src='https://img.shields.io/badge/Model-green'></a>\n\n  \n- __Do LVLMs Understand Charts? Analyzing and Correcting Factual Errors in Chart Captioning.__\n\n  _Kung-Hsiang Huang, Mingyang Zhou, Hou Pong Chan, Yi R. Fung, Zhenhailong Wang, Lingyu Zhang, Shih-Fu Chang, Heng Ji._ <img src='https://img.shields.io/badge/ACL_Findings-2024-yellow'> <a href='https://arxiv.org/abs/2312.10160'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://huggingface.co/khhuang/chart-to-table'><img src='https://img.shields.io/badge/Model-green'></a>\n\n- __Do LLMs Work on Charts? Designing Few-Shot Prompts for Chart Question Answering and Summarization.__\n\n  _Xuan Long Do, Mohammad Hassanpour, Ahmed Masry, Parsa Kavehzadeh, Enamul Hoque, Shafiq Joty._ <img src='https://img.shields.io/badge/Arxiv-2023-yellow'> <a href='https://arxiv.org/abs/2312.10610'><img src='https://img.shields.io/badge/PDF-blue'></a>\n\n- __DOMINO: A Dual-System for Multi-step Visual Language Reasoning.__\n\n  _Peifeng Wang, Olga Golovneva, Armen Aghajanyan, Xiang Ren, Muhao Chen, Asli Celikyilmaz, Maryam Fazel-Zarandi._ <img src='https://img.shields.io/badge/Arxiv-2023-yellow'> <a href='https://arxiv.org/abs/2310.02804'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://github.com/facebookresearch/dual-system-for-visual-language-reasoning'><img src='https://img.shields.io/badge/Model-green'></a>\n  \n\n- __StructChart: Perception, Structuring, Reasoning for Visual Chart Understanding.__\n\n  _Renqiu Xia, Bo Zhang, Haoyang Peng, Hancheng Ye, Xiangchao Yan, Peng Ye, Botian Shi, Yu Qiao, Junchi Yan._ <img src='https://img.shields.io/badge/Arxiv-2023-yellow'> <a href='https://arxiv.org/abs/2309.11268'><img src='https://img.shields.io/badge/PDF-blue'></a>\n\n\n- __SIMPLOT: Enhancing Chart Question Answering by Distilling Essentials.__\n\n  _Wonjoong Kim, Sangwu Park, Yeonjun In, Seokwon Han, Chanyoung Park._ <img src='https://img.shields.io/badge/Arxiv-2024-yellow'> <a href='https://arxiv.org/abs/2405.00021'><img src='https://img.shields.io/badge/PDF-blue'></a>\n\n- __OneChart: Purify the Chart Structural Extraction via One Auxiliary Token\n.__\n\n  _Jinyue Chen, Lingyu Kong, Haoran Wei, Chenglong Liu, Zheng Ge, Liang Zhao, Jianjian Sun, Chunrui Han, Xiangyu Zhang._ <img src='https://img.shields.io/badge/ACM_MM-2024-yellow'> <a href='https://arxiv.org/abs/2404.09987'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://huggingface.co/kppkkp/OneChart/tree/main'><img src='https://img.shields.io/badge/Model-green'></a>\n  <a href='https://drive.google.com/drive/folders/1YmOvxq0DfOA9YKoyCZDjpnTIkPNoyegQ?usp=sharing'><img src='https://img.shields.io/badge/Dataset-red'></a>\n\n### Large Vision-language Models\n\n**Tailored for Chart Understanding** \n\n\n- __ChartLlama: A Multimodal LLM for Chart Understanding and Generation.__ \n\n  _Yucheng Han, Chi Zhang, Xin Chen, Xu Yang, Zhibin Wang, Gang Yu, Bin Fu, Hanwang Zhang._ <img src='https://img.shields.io/badge/Arxiv-2023-yellow'> <a href='https://arxiv.org/abs/2311.16483'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://github.com/tingxueronghua/ChartLlama-code'><img src='https://img.shields.io/badge/Model-green'></a>\n  \n- __MMC: Advancing Multimodal Chart Understanding with Large-scale Instruction Tuning.__ \n\n  _Fuxiao Liu, Xiaoyang Wang, Wenlin Yao, Jianshu Chen, Kaiqiang Song, Sangwoo Cho, Yaser Yacoob, Dong Yu._ <img src='https://img.shields.io/badge/NAACL-2024-yellow'> <a href='https://arxiv.org/abs/2311.10774'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://github.com/FuxiaoLiu/MMC'><img src='https://img.shields.io/badge/Model-green'></a>\n  \n- __ChartAssisstant: A Universal Chart Multimodal Language Model via Chart-to-Table Pre-training and Multitask Instruction Tuning.__ \n\n  _Fanqing Meng, Wenqi Shao, Quanfeng Lu, Peng Gao, Kaipeng Zhang, Yu Qiao, Ping Luo._ <img src='https://img.shields.io/badge/Arxiv-2024-yellow'> <a href='https://arxiv.org/abs/2401.02384'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://github.com/OpenGVLab/ChartAst'><img src='https://img.shields.io/badge/Model-green'></a>\n  \n  \n- __ChartInstruct: Instruction Tuning for Chart Comprehension and Reasoning.__ \n\n  _Ahmed Masry, Mehrad Shahmohammadi, Md Rizwan Parvez, Enamul Hoque, Shafiq Joty._ <img src='https://img.shields.io/badge/Arxiv-2024-yellow'> <a href='https://arxiv.org/abs/2403.09028'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://github.com/vis-nlp/ChartInstruct'><img src='https://img.shields.io/badge/Model-green'></a>\n  \n  \n- __ChartX & ChartVLM: A Versatile Benchmark and Foundation Model for Complicated Chart Reasoning.__ \n\n  _Renqiu Xia, Bo Zhang, Hancheng Ye, Xiangchao Yan, Qi Liu, Hongbin Zhou, Zijun Chen, Min Dou, Botian Shi, Junchi Yan, Yu Qiao._ <img src='https://img.shields.io/badge/Arxiv-2024-yellow'> <a href='https://arxiv.org/abs/2402.12185'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://github.com/UniModal4Reasoning/ChartVLM'><img src='https://img.shields.io/badge/Model-green'></a>\n\n- __FigurA11y: AI Assistance for Writing Scientific Alt Text.__ \n\n  _Nikhil Singh, Andrew Head, Lucy Lu Wang, Jonathan Bragg._ <img src='https://img.shields.io/badge/Arxiv-2024-yellow'> <a href='https://www.llwang.net/assets/pdf/2024_singh_figura11y_iui.pdf'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://github.com/allenai/figura11y'><img src='https://img.shields.io/badge/Model-green'></a>\n\n- __Chart-based Reasoning: Transferring Capabilities from LLMs to VLMs.__ \n\n  _Victor Carbune, Hassan Mansoor, Fangyu Liu, Rahul Aralikatte, Gilles Baechler, Jindong Chen, Abhanshu Sharma._ <img src='https://img.shields.io/badge/NAACL Findings-2024-yellow'> <a href='https://arxiv.org/abs/2403.12596'><img src='https://img.shields.io/badge/PDF-blue'></a>\n\n- __TinyChart: Efficient Chart Understanding with Visual Token Merging and Program-of-Thoughts Learning.__ \n\n  _Liang Zhang, Anwen Hu, Haiyang Xu, Ming Yan, Yichen Xu, Qin Jin, Ji Zhang, Fei Huang._ <img src='https://img.shields.io/badge/Arxiv-2024-yellow'> <a href='https://arxiv.org/abs/2404.16635'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://github.com/X-PLUG/mPLUG-DocOwl/tree/main/TinyChart'><img src='https://img.shields.io/badge/Model-green'></a>\n\n- __ChartGemma: Visual Instruction-tuning for Chart Reasoning in the Wild.__ \n\n  _Ahmed Masry, Megh Thakkar, Aayush Bajaj, Aaryaman Kartha, Enamul Hoque, Shafiq Joty._ <img src='https://img.shields.io/badge/Arxiv-2024-yellow'> <a href='https://arxiv.org/abs/2407.04172v1'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://github.com/vis-nlp/ChartGemma'><img src='https://img.shields.io/badge/Model-green'></a>\n\n**General-purpose**\n\n- __Visual Instruction Tuning.__ \n\n  _Haotian Liu, Chunyuan Li, Qingyang Wu, Yong Jae Lee._ <img src='https://img.shields.io/badge/NeurIPS-2023-yellow'> <a href='https://arxiv.org/abs/2304.08485'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://github.com/haotian-liu/LLaVA'><img src='https://img.shields.io/badge/Model-green'></a>\n\n- __mPLUG-Owl: Modularization Empowers Large Language Models with Multimodality.__ \n\n  _Qinghao Ye, Haiyang Xu, Guohai Xu, Jiabo Ye, Ming Yan, Yiyang Zhou, Junyang Wang, Anwen Hu, Pengcheng Shi, Yaya Shi, Chenliang Li, Yuanhong Xu, Hehong Chen, Junfeng Tian, Qian Qi, Ji Zhang, Fei Huang._ <img src='https://img.shields.io/badge/Arxiv-2023-yellow'> <a href='https://arxiv.org/abs/2304.14178'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://github.com/X-PLUG/mPLUG-Owl'><img src='https://img.shields.io/badge/Model-green'></a>\n\n- __mPLUG-Owl2: Revolutionizing Multi-modal Large Language Model with Modality Collaboration.__ \n\n  _Qinghao Ye, Haiyang Xu, Jiabo Ye, Ming Yan, Anwen Hu, Haowei Liu, Qi Qian, Ji Zhang, Fei Huang, Jingren Zhou._ <img src='https://img.shields.io/badge/CVPR-2024-yellow'> <a href='https://arxiv.org/abs/2311.04257'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://github.com/X-PLUG/mPLUG-Owl'><img src='https://img.shields.io/badge/Model-green'></a>\n\n- __mPLUG-DocOwl 1.5: Unified Structure Learning for OCR-free Document Understanding__ \n\n  _Anwen Hu, Haiyang Xu, Jiabo Ye, Ming Yan, Liang Zhang, Bo Zhang, Chen Li, Ji Zhang, Qin Jin, Fei Huang, Jingren Zhou._ <img src='https://img.shields.io/badge/Arxiv-2024-yellow'> <a href='https://arxiv.org/abs/2403.12895'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://github.com/X-PLUG/mPLUG-DocOwl/tree/main/DocOwl1.5'><img src='https://img.shields.io/badge/Model-green'></a>  \n\n- __SPHINX: The Joint Mixing of Weights, Tasks, and Visual Embeddings for Multi-modal Large Language Models.__ \n\n  _Ziyi Lin, Chris Liu, Renrui Zhang, Peng Gao, Longtian Qiu, Han Xiao, Han Qiu, Chen Lin, Wenqi Shao, Keqin Chen, Jiaming Han, Siyuan Huang, Yichi Zhang, Xuming He, Hongsheng Li, Yu Qiao._ <img src='https://img.shields.io/badge/Arxiv-2023-yellow'> <a href='https://arxiv.org/abs/2311.07575'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://github.com/Alpha-VLLM/LLaMA2-Accessory/tree/main/SPHINX'><img src='https://img.shields.io/badge/Model-green'></a>\n\n\n- __Gemini: A Family of Highly Capable Multimodal Models.__ \n\n  _Gemini Team Google._ <img src='https://img.shields.io/badge/Arxiv-2023-yellow'> <a href='https://arxiv.org/abs/2312.11805'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://gemini.google.com/'><img src='https://img.shields.io/badge/Interface-darkgreen'></a>\n\n- __GPT-4V.__ \n\n  _OpenAI._ <img src='https://img.shields.io/badge/Year-2023-yellow'> <a href='https://openai.com/research/gpt-4v-system-card'><img src='https://img.shields.io/badge/Website-blue'></a>\n  <a href='https://chat.openai.com/'><img src='https://img.shields.io/badge/Interface-darkgreen'></a>\n\n- __Introducing the next generation of Claude (Claude 3).__ \n\n  _Antropic._ <img src='https://img.shields.io/badge/Year-2023-yellow'> <a href='https://www.anthropic.com/news/claude-3-family'><img src='https://img.shields.io/badge/Website-blue'></a>\n  <a href='https://claude.ai/'><img src='https://img.shields.io/badge/Interface-darkgreen'></a>  \n\n## Evaluation\n\n### Faithfulness/ Factuality\n\n- __Do LVLMs Understand Charts? Analyzing and Correcting Factual Errors in Chart Captioning.__ \n\n  _Kung-Hsiang Huang, Mingyang Zhou, Hou Pong Chan, Yi R. Fung, Zhenhailong Wang, Lingyu Zhang, Shih-Fu Chang, Heng Ji._ <img src='https://img.shields.io/badge/ACL_Findings-2024-yellow'> <a href='https://arxiv.org/abs/2312.10160'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  <a href='https://huggingface.co/khhuang/chartve'><img src='https://img.shields.io/badge/Model-green'></a>\n\n## Analysis\n\n- __Are Large Vision Language Models up to the Challenge of Chart Comprehension and Reasoning? An Extensive Investigation into the Capabilities and Limitations of LVLMs.__\n\n  _Mohammed Saidul Islam, Raian Rahman, Ahmed Masry, Md Tahmid Rahman Laskar, Mir Tafseer Nayeem, Enamul Hoque._ <img src='https://img.shields.io/badge/Arxiv-2024-yellow'> <a href='https://arxiv.org/abs/2406.00257'><img src='https://img.shields.io/badge/PDF-blue'></a>\n  \n  \n## Citation\n\n```bibtex\n@misc{huang-etal-2024-chart,\n    title = \"From Pixels to Insights: A Survey on Automatic Chart Understanding in the Era of Large Foundation Models\",\n    author = \"Huang, Kung-Hsiang and Chan, Hou Pong and Fung, Yi R. and Qiu, Haoyi and Zhou, Mingyang and Joty, Shafiq and Chang, Shih-Fu and Ji, Heng\",\n    year={2024},\n    eprint={2403.12027},\n    archivePrefix={arXiv},\n    primaryClass={cs.CL}\n}\n```\n"
+}
