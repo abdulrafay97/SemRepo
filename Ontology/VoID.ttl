@@ -1,0 +1,55 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix : <#> .
+
+:SemRepo
+	rdf:type void:Dataset ;
+	foaf:homepage <https://semrepo.org> ;
+	dcterms:title "SemRepo" ;
+	void:sparqlEndpoint <https://semrepo.org/sparql>;
+	dcterms:contributor <https://dbpedia.org/page/TU_Dresden> ;
+	dcterms:source <https://github.com/abdulrafay97/SemRepo> ;
+	dcterms:modified "2025-05-13"^^xsd:date ; 
+	dcterms:publisher :Michael_Faerber ;
+	dcterms:publisher :Abdul_Rafay ;
+	dcterms:publisher :David_Lamprecht ;
+	dcterms:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
+	dcterms:subject <http://dbpedia.org/resource/Computer_science> ;  
+	dcterms:subject <http://dbpedia.org/resource/Knowledge_graph> ;  
+	dcterms:subject <http://dbpedia.org/resource/Resource_Description_Framework> ;  
+	void:feature <http://www.w3.org/ns/formats/N-Triples> ;
+	void:triples  81,485,93;
+	void:vocabulary <http://xmlns.com/foaf/0.1/> ;
+	void:vocabulary <http://www.w3.org /2001/XMLSchema\#> ;
+	void:vocabulary <http://www.w3.org/1999/02/22-rdf-syntax-ns/#> ;
+	void:vocabulary <http://www.w3.org/2000/01/rdf-schema/#> ;
+	void:vocabulary <http://purl.org/dc/terms/> ;
+	void:vocabulary <http://purl.org/spar/fabio/> ;
+	void:vocabulary <https://linkedpaperswithcode.com/ontology#> ;
+	void:vocabulary <https://semopenalex.org/ontology#> ;
+	void:vocabulary <https://w3id.org/mlsea/pwc/> ;
+	void:vocabulary <http://www.w3.org/2002/07/owl#> ;
+	void:linkPredicate dcterms:creator .
+
+		 
+:Michael_Faerber a 
+	foaf:Person ;
+	rdfs:label "Michael Färber" ;
+	foaf:homepage <https://sites.google.com/view/michaelfaerber>; 
+	foaf:mbox <mailto:michael.faerber@tu-dresden.de> .
+
+:Abdul_Rafay a 
+	foaf:Person ;
+	rdfs:label "Abdul Rafay" ;
+	foaf:mbox <mailto:abdul.rafay@mailbox.tu-dresden.de> .
+
+:David_Lamprecht a 
+	foaf:Person ;
+	rdfs:label "David Lamprecht" ;
+	foaf:mbox <mailto:dl@metaphacts.com> .
+	
