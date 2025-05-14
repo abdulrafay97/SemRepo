@@ -11,12 +11,13 @@
 	rdf:type void:Dataset ;
 	foaf:homepage <https://semrepo.org> ;
 	dcterms:title "SemRepo" ;
-	void:sparqlEndpoint <http://172.26.62.156:8890/sparql>;
+	void:sparqlEndpoint <https://semrepo.org/sparql>;
 	dcterms:contributor <https://dbpedia.org/page/TU_Dresden> ;
 	dcterms:source <https://github.com/abdulrafay97/SemRepo> ;
-	dcterms:modified "2025-03-12"^^xsd:date ; 
+	dcterms:modified "2025-05-13"^^xsd:date ; 
 	dcterms:publisher :Michael_Faerber ;
 	dcterms:publisher :Abdul_Rafay ;
+	dcterms:publisher :David_Lamprecht ;
 	dcterms:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
 	dcterms:subject <http://dbpedia.org/resource/Computer_science> ;  
 	dcterms:subject <http://dbpedia.org/resource/Knowledge_graph> ;  
@@ -31,6 +32,7 @@
 	void:vocabulary <http://purl.org/spar/fabio/> ;
 	void:vocabulary <https://linkedpaperswithcode.com/ontology#> ;
 	void:vocabulary <https://semopenalex.org/ontology#> ;
+	void:vocabulary <https://w3id.org/mlsea/pwc/> ;
 	void:vocabulary <http://www.w3.org/2002/07/owl#> ;
 	void:linkPredicate dcterms:creator .
 
@@ -38,11 +40,16 @@
 :Michael_Faerber a 
 	foaf:Person ;
 	rdfs:label "Michael Färber" ;
-	foaf:homepage <https://www.aifb.kit.edu/web/Michael_Färber>; 
+	foaf:homepage <https://sites.google.com/view/michaelfaerber>; 
 	foaf:mbox <mailto:michael.faerber@tu-dresden.de> .
+
+:Abdul_Rafay a 
+	foaf:Person ;
+	rdfs:label "Abdul Rafay" ;
+	foaf:mbox <mailto:abdul.rafay@mailbox.tu-dresden.de> .
 
 :David_Lamprecht a 
 	foaf:Person ;
-	rdfs:label "Abdul_Rafay" ;
-	foaf:mbox <mailto:abdul.rafay@mailbox.tu-dresden.de> .
+	rdfs:label "David Lamprecht" ;
+	foaf:mbox <mailto:dl@metaphacts.com> .
 	
