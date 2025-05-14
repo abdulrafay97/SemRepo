@@ -26,13 +26,18 @@ To construct the knowledge graph of the metadata and linking the knowledge graph
 
 Programming Languages Used for each topic
 ```sparql
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX sr: <https://semrepo.org/property/>
+PREFIX srclass: <https://semrepo.org/class/>
+
 SELECT ?topic ?progLang (COUNT(?progLang) AS ?langCount)
 WHERE {
   GRAPH <https://semrepo.org> {
-    ?repository <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://semrepo.org/class/repository>.
-    ?repository <http://xmlns.com/foaf/0.1/topic> ?topic.
-    ?repository <https://semrepo.org/property/hasLanguageReference> ?langref.
-    ?langref <https://semrepo.org/property/hasLanguageName> ?progLang.
+    ?repository rdf:type srclass:repository .
+    ?repository foaf:topic ?topic .
+    ?repository sr:hasLanguageReference ?langref .
+    ?langref sr:hasLanguageName ?progLang .
   }
 }
 GROUP BY ?topic ?progLang
@@ -42,13 +47,15 @@ LIMIT 100
 
 Top 5 contributors with most commits with SemOpenAlex profile
 ```sparql
+PREFIX sr: <https://semrepo.org/property/>
+
 SELECT ?contributor ?soa_url (SUM(?no_of_commits) AS ?total_commits)
 WHERE {
-GRAPH <https://semrepo.org> {
-?contRef <https://semrepo.org/property/hasContributor> ?contributor.
-?contRef <https://semrepo.org/property/hasCommits> ?no_of_commits.
-?contributor <https://semrepo.org/property/hasSoaUrl> ?soa_url.
-}
+  GRAPH <https://semrepo.org> {
+    ?contRef sr:hasContributor ?contributor .
+    ?contRef sr:hasCommits ?no_of_commits .
+    ?contributor sr:hasSoaUrl ?soa_url .
+  }
 }
 GROUP BY ?contributor ?soa_url
 ORDER BY DESC(?total_commits)
