@@ -17,7 +17,7 @@ Schema of SemRepo
 To Crawl the metadata from the GitHub repositories, we used [python scripts](./crawling-gitHub-metadata). An overview of the crawled data is available as [JSON](./assets/khuangaf_awesome-chart-understanding.json).
 
 ### Extract Pacakges
-For Extracting the packages being used in the code files, we used the following [scripts](./extract-libraries-from-code). It basically downloads the repository, then read the code files to get the package name. An overview of the data is available as [JSON](./assets/package_example.json)
+For Extracting the packages being used in the code files, we used the following [scripts](./extract-libraries-from-code). It basically downloads the repository, then read the code files to get the package name.
 
 ### Constructing the Metadata KG (ie .nt file)
 To construct the knowledge graph of the metadata and linking the knowledge graph with [LPWC](https://linkedpaperswithcode.com) and [SemOpenAlex](https://semopenalex.org/), we employed these [scripts.](./making-repo-metadata-kg)
