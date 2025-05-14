@@ -100,4 +100,6 @@ WHERE {
   } 
 }
 LIMIT 100
+```
 
+More examples of SPARQL queries are [here](./sparql-queries)
