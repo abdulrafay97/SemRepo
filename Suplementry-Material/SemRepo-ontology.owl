@@ -219,6 +219,16 @@
 	</owl:Class>
 
 
+	<owl:Class rdf:about="https://w3id.org/mlsea/pwc">
+		<rdfs:label xml:lang="en">
+			Software entities
+		</rdfs:label>
+		<rdfs:comment xml:lang="en">
+			Represent a software entitiy with in MLSea KG
+		</rdfs:comment>
+	</owl:Class>
+
+
 <!--
 ///////////////////////////////////////////////////////////////////////////////////////
 //
@@ -464,6 +474,18 @@
 		</rdfs:label>
 		<rdfs:comment xml:lang="en">
 			Provides a link to the corresponding author profile in the Semantic OpenAlex (SOA) database, enhancing the visibility and attribution of authorship in published works.
+		</rdfs:comment>
+	</owl:ObjectProperty>
+
+
+	<owl:ObjectProperty rdf:about="https://semrepo.org/property/hasMlseaUrl">
+		<rdfs:domain rdf:resource="https://semrepo.org/class/repository"/>
+		<rdfs:range rdf:resource="https://w3id.org/mlsea/pwc"/>
+		<rdfs:label xml:lang="en">
+			has MLSea software entity URL
+		</rdfs:label>
+		<rdfs:comment xml:lang="en">
+			Provides a link to the software entity in the MLSea Knowledge Graph.
 		</rdfs:comment>
 	</owl:ObjectProperty>
 
