@@ -14,7 +14,7 @@ Schema of SemRepo
 ## Knowledge Graph Construction 
 
 ### Crawl MetaData
-To Crawl the metadata from the GitHub repositories, we used [python scripts](./Crawling_GitHub_Metadata). An overview of the crawled data is available as [JSON](./Suplementry-Material/aashqar_dsclrcn-pytorch_repo.json).
+To Crawl the metadata from the GitHub repositories, we used [python scripts](./crawling-gitHub-metadata). An overview of the crawled data is available as [JSON](./Suplementry-Material/aashqar_dsclrcn-pytorch_repo.json).
 
 ### Extract Pacakges
 For Extracting the packages being used in the code files, we used the following [scripts](./Extract_Libraries_From_Code). It basically downloads the repository, then read the code files to get the package name. An overview of the data is available as [JSON](./Suplementry-Material/package_example.json)
